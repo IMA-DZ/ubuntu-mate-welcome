@@ -63,7 +63,7 @@ from threading import Thread
 from getpass import getuser
 
 # i18n - if no translation is available use the inline strings
-t = gettext.translation("ubuntu-mate-welcome", "./locale", fallback=True)
+t = gettext.translation('ubuntu-mate-welcome', localedir='/usr/share/locale/')
 _ = t.gettext
 
 
