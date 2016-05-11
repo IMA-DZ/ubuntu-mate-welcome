@@ -1,36 +1,13 @@
 {
-    "16.04.999-Example": {
-        "add": [
-            "skype",
-            "gparted",
-            "hardinfo"
-        ],
+    "16.10.0-xenial1.2": {
         "fix": {
-            "skype": "new-source",
-            "virtualbox": "add-source",
-            "minecraft": "snappy",
-            "spotify": "general",
-            "simplescreenrecorder": "bad-source",
-            "makemkv": "no-source",
-            "kodi": "broken",
-            "audacity": "unstable",
-            "caja-share": "testing",
-            "terminator": "not-nice"
-        },
-        "del": {
-            "VirtualBox": "no-source",
-            "psensor": "new-source"
+            "virtualbox": "new-source"
         }
     },
-    "16.04.555-Example": {
-        "add": [
-            "virtualbox"
-        ],
+    "16.10.0-xenial1.1": {
         "fix": {
-            "skype": "add-source"
-        },
-        "del": {
-            "SuperTuxKart": "unstable"
+            "virtualbox": "add-source",
+            "nuvolaplayer": "add-source"
         }
     }
 }
