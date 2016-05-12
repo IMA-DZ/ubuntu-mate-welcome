@@ -5,10 +5,10 @@ msgstr ""
 "POT-Creation-Date: 2016-02-27 12:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: : LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language-Team:: LANGUAGE <LL@li.org>\n"
 "Report-Msgid-Bugs-To : you@example.com\n"
 
 #: gettingstarted.html:18
@@ -19,11 +19,11 @@ msgstr ""
 msgid "Prerequisites"
 msgstr ""
 
-#: gettingstarted.html:29, 29, 160, 161
+#: gettingstarted.html29, 29, 160, 161
 msgid "System Requirements"
 msgstr ""
 
-#: gettingstarted.html:30, 91, 92, 338
+#: gettingstarted.html30, 91, 92, 338
 msgid "Installation Preparations"
 msgstr ""
 
@@ -31,7 +31,7 @@ msgstr ""
 msgid "Installation Preparation"
 msgstr ""
 
-#: gettingstarted.html:31, 31, 162, 163, 173
+#: gettingstarted.html31, 31, 162, 163, 173
 msgid "Dual Booting"
 msgstr ""
 
@@ -43,19 +43,19 @@ msgstr ""
 msgid "Post-Installation"
 msgstr ""
 
-#: gettingstarted.html:37, 37, 349, 570, 571
+#: gettingstarted.html37, 37, 349, 570, 571
 msgid "Software Updates"
 msgstr ""
 
-#: gettingstarted.html:38, 38, 385, 386, 396, 616, 617
+#: gettingstarted.html38, 38, 385, 386, 396, 616, 617
 msgid "Drivers"
 msgstr ""
 
-#: gettingstarted.html:39, 39
+#: gettingstarted.html39, 39
 msgid "Language & Input"
 msgstr ""
 
-#: gettingstarted.html:40, 40, 618, 619, 782, 783
+#: gettingstarted.html40, 40, 618, 619, 782, 783
 msgid "Optional Tasks"
 msgstr ""
 
@@ -63,11 +63,11 @@ msgstr ""
 msgid "Familiarity"
 msgstr ""
 
-#: gettingstarted.html:43, 43, 735, 736, 1356, 1357
+#: gettingstarted.html43, 43, 735, 736, 1356, 1357
 msgid "Customization"
 msgstr ""
 
-#: gettingstarted.html:44, 44, 784, 785, 795
+#: gettingstarted.html44, 44, 784, 785, 795
 msgid "Keyboard Shortcuts"
 msgstr ""
 
@@ -75,7 +75,7 @@ msgstr ""
 msgid "Troubleshooting"
 msgstr ""
 
-#: gettingstarted.html:48, 48, 86
+#: gettingstarted.html48, 48, 86
 msgid "System Specifications"
 msgstr ""
 
@@ -131,11 +131,11 @@ msgid ""
 "or surpasses the recommended requirements."
 msgstr ""
 
-#: gettingstarted.html:86, 1367
+#: gettingstarted.html86, 1367
 msgid "What's inside my computer?"
 msgstr ""
 
-#: gettingstarted.html:92, 163, 386, 573, 619, 736, 785
+#: gettingstarted.html92, 163, 386, 573, 619, 736, 785
 msgid "Next:"
 msgstr ""
 
@@ -162,7 +162,7 @@ msgstr ""
 msgid "For the best results:"
 msgstr ""
 
-#: gettingstarted.html:111, 186
+#: gettingstarted.html111, 186
 msgid "Back up"
 msgstr ""
 
@@ -282,7 +282,7 @@ msgid ""
 "reserved for swap at the end of the drive."
 msgstr ""
 
-#: gettingstarted.html:161, 339, 571, 617, 734, 783, 1357
+#: gettingstarted.html161, 339, 571, 617, 734, 783, 1357
 msgid "Previous:"
 msgstr ""
 
@@ -321,11 +321,11 @@ msgstr ""
 msgid "Which approach would you prefer?"
 msgstr ""
 
-#: gettingstarted.html:194, 278
+#: gettingstarted.html194, 278
 msgid "Simple"
 msgstr ""
 
-#: gettingstarted.html:195, 278
+#: gettingstarted.html195, 278
 msgid "Advanced"
 msgstr ""
 
@@ -385,7 +385,7 @@ msgstr ""
 msgid "Use GParted or the installer's \"Custom\" option."
 msgstr ""
 
-#: gettingstarted.html:235, 1612
+#: gettingstarted.html235, 1612
 msgid "GParted"
 msgstr ""
 
@@ -397,11 +397,11 @@ msgstr ""
 msgid "It is located under the"
 msgstr ""
 
-#: gettingstarted.html:236, 363, 416, 536, 592, 651, 701, 725, 756, 769, 1390
+#: gettingstarted.html236, 363, 416, 536, 592, 651, 701, 725, 756, 769, 1390
 msgid "System"
 msgstr ""
 
-#: gettingstarted.html:237, 363, 416, 537, 725
+#: gettingstarted.html237, 363, 416, 537, 725
 msgid "Administration"
 msgstr ""
 
@@ -555,7 +555,7 @@ msgid ""
 "boots on your computer while experiencing Ubuntu MATE."
 msgstr ""
 
-#: gettingstarted.html:285, 561, 1583, 1600, 1616, 1632, 1648, 1664
+#: gettingstarted.html285, 561, 1583, 1600, 1616, 1632, 1648, 1664
 msgid "Open"
 msgstr ""
 
@@ -672,11 +672,11 @@ msgid ""
 "MATE, you might want to do this now."
 msgstr ""
 
-#: gettingstarted.html:359, 362
+#: gettingstarted.html359, 362
 msgid "Software Updater"
 msgstr ""
 
-#: gettingstarted.html:362, 415, 591, 650, 700, 724, 755
+#: gettingstarted.html362, 415, 591, 650, 700, 724, 755
 msgid "can be found later in"
 msgstr ""
 
@@ -717,7 +717,7 @@ msgstr ""
 msgid "An Internet connection is required to download and install drivers."
 msgstr ""
 
-#: gettingstarted.html:407, 415, 485
+#: gettingstarted.html407, 415, 485
 msgid "Additional Drivers"
 msgstr ""
 
@@ -735,15 +735,15 @@ msgid ""
 "this system."
 msgstr ""
 
-#: gettingstarted.html:425, 431, 439, 445
+#: gettingstarted.html425, 431, 439, 445
 msgid "Card/Chipset:"
 msgstr ""
 
-#: gettingstarted.html:425, 431, 439, 445
+#: gettingstarted.html425, 431, 439, 445
 msgid "Unknown"
 msgstr ""
 
-#: gettingstarted.html:429, 435
+#: gettingstarted.html429, 435
 msgid "Graphics Card Detected."
 msgstr ""
 
@@ -947,7 +947,7 @@ msgstr ""
 msgid "Read more on troubleshooting wireless hardware."
 msgstr ""
 
-#: gettingstarted.html:530, 535
+#: gettingstarted.html530, 535
 msgid "Printers"
 msgstr ""
 
@@ -991,15 +991,15 @@ msgid ""
 " HP MFP (multi-function peripheral) printers."
 msgstr ""
 
-#: gettingstarted.html:562, 676, 1584, 1601, 1617, 1633, 1649, 1665
+#: gettingstarted.html562, 676, 1584, 1601, 1617, 1633, 1649, 1665
 msgid "Install"
 msgstr ""
 
-#: gettingstarted.html:572, 573, 733, 734
+#: gettingstarted.html572, 573, 733, 734
 msgid "Language Input"
 msgstr ""
 
-#: gettingstarted.html:583, 588, 591
+#: gettingstarted.html583, 588, 591
 msgid "Language Support"
 msgstr ""
 
@@ -1009,11 +1009,11 @@ msgid ""
 "settings, or you may want to install additional language support."
 msgstr ""
 
-#: gettingstarted.html:592, 651, 701, 756
+#: gettingstarted.html592, 651, 701, 756
 msgid "Preferences"
 msgstr ""
 
-#: gettingstarted.html:593, 652
+#: gettingstarted.html593, 652
 msgid "Personal"
 msgstr ""
 
@@ -1047,7 +1047,7 @@ msgid ""
 "installed and supports multiple user accounts."
 msgstr ""
 
-#: gettingstarted.html:639, 650
+#: gettingstarted.html639, 650
 msgid "Backups"
 msgstr ""
 
@@ -1161,11 +1161,11 @@ msgstr ""
 msgid "Configure Users"
 msgstr ""
 
-#: gettingstarted.html:724, 726
+#: gettingstarted.html724, 726
 msgid "Users and Groups"
 msgstr ""
 
-#: gettingstarted.html:744, 752
+#: gettingstarted.html744, 752
 msgid "User Interface"
 msgstr ""
 
@@ -1192,7 +1192,7 @@ msgstr ""
 msgid "Look and Feel"
 msgstr ""
 
-#: gettingstarted.html:760, 765, 768
+#: gettingstarted.html760, 765, 768
 msgid "Control Center"
 msgstr ""
 
@@ -1252,7 +1252,7 @@ msgstr ""
 msgid "These shortcuts apply in most applications."
 msgstr ""
 
-#: gettingstarted.html:809, 817, 825, 833, 841, 849, 857, 865, 873, 881, 889,
+#: gettingstarted.html809, 817, 825, 833, 841, 849, 857, 865, 873, 881, 889,
 #: 897, 905, 913, 966, 976, 986, 1024, 1040, 1050, 1060, 1072, 1147, 1157,
 #: 1167, 1177, 1187, 1197, 1207, 1241, 1252, 1261
 msgid "Ctrl"
@@ -1364,7 +1364,7 @@ msgstr ""
 msgid "Open a terminal."
 msgstr ""
 
-#: gettingstarted.html:998, 1272, 1280, 1288, 1298, 1306, 1314, 1322
+#: gettingstarted.html998, 1272, 1280, 1288, 1298, 1306, 1314, 1322
 msgid "Super Key"
 msgstr ""
 
@@ -1388,7 +1388,7 @@ msgstr ""
 msgid "Press Alt + Tab and then release Tab (but continue to hold Alt)."
 msgstr ""
 
-#: gettingstarted.html:1017, 1033
+#: gettingstarted.html1017, 1033
 msgid ""
 "Press Tab repeatedly to cycle through the list of available windows which "
 "appears on the screen."
@@ -1406,7 +1406,7 @@ msgstr ""
 msgid "Release the Ctrl and Alt keys to switch to the selected window."
 msgstr ""
 
-#: gettingstarted.html:1044, 1066
+#: gettingstarted.html1044, 1066
 msgid "Left"
 msgstr ""
 
@@ -1414,7 +1414,7 @@ msgstr ""
 msgid "Switch to the previous workspace."
 msgstr ""
 
-#: gettingstarted.html:1054, 1077
+#: gettingstarted.html1054, 1077
 msgid "Right"
 msgstr ""
 
@@ -1422,7 +1422,7 @@ msgstr ""
 msgid "Switch to the next workspace."
 msgstr ""
 
-#: gettingstarted.html:1064, 1075, 1290
+#: gettingstarted.html1064, 1075, 1290
 msgid "Shift"
 msgstr ""
 
@@ -1472,7 +1472,7 @@ msgid ""
 " and 'Maximize' and above commands."
 msgstr ""
 
-#: gettingstarted.html:1151, 1161, 1171, 1181, 1191, 1201, 1211
+#: gettingstarted.html1151, 1161, 1171, 1181, 1191, 1201, 1211
 msgid "Numpad"
 msgstr ""
 
@@ -1580,7 +1580,7 @@ msgstr ""
 msgid "Zooms in on the screen."
 msgstr ""
 
-#: gettingstarted.html:1324, 1340
+#: gettingstarted.html1324, 1340
 msgid "Middle Click"
 msgstr ""
 

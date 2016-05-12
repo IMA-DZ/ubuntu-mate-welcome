@@ -5,10 +5,10 @@ msgstr ""
 "POT-Creation-Date: 2016-02-27 12:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: : LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language-Team:: LANGUAGE <LL@li.org>\n"
 "Report-Msgid-Bugs-To : you@example.com\n"
 
 #: software.html:17
@@ -19,59 +19,59 @@ msgstr ""
 msgid "Boutique"
 msgstr ""
 
-#: software.html:20, 20, 340
+#: software.html20, 20, 340
 msgid "Boutique News"
 msgstr ""
 
-#: software.html:29, 29, 135
+#: software.html29, 29, 135
 msgid "Accessories"
 msgstr ""
 
-#: software.html:30, 30, 148
+#: software.html30, 30, 148
 msgid "Education"
 msgstr ""
 
-#: software.html:31, 31, 161
+#: software.html31, 31, 161
 msgid "Games"
 msgstr ""
 
-#: software.html:32, 32, 174
+#: software.html32, 32, 174
 msgid "Graphics"
 msgstr ""
 
-#: software.html:33, 33, 187
+#: software.html33, 33, 187
 msgid "Internet"
 msgstr ""
 
-#: software.html:34, 34, 200
+#: software.html34, 34, 200
 msgid "Office"
 msgstr ""
 
-#: software.html:35, 35, 213
+#: software.html35, 35, 213
 msgid "Programming"
 msgstr ""
 
-#: software.html:36, 36, 226
+#: software.html36, 36, 226
 msgid "Sound & Video"
 msgstr ""
 
-#: software.html:37, 37, 239
+#: software.html37, 37, 239
 msgid "System Tools"
 msgstr ""
 
-#: software.html:38, 38, 252
+#: software.html38, 38, 252
 msgid "Universal Access"
 msgstr ""
 
-#: software.html:39, 39, 262
+#: software.html39, 39, 262
 msgid "Servers"
 msgstr ""
 
-#: software.html:40, 40
+#: software.html40, 40
 msgid "More Software"
 msgstr ""
 
-#: software.html:41, 41
+#: software.html41, 41
 msgid "Fixes"
 msgstr ""
 
@@ -265,7 +265,7 @@ msgstr ""
 msgid "OK"
 msgstr ""
 
-#: software.html:137, 150, 163, 176, 189, 202, 215, 228, 241
+#: software.html137, 150, 163, 176, 189, 202, 215, 228, 241
 msgid "No Filter"
 msgstr ""
 
