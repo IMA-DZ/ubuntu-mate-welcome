@@ -8,7 +8,7 @@
 # Copyright 2015-2016 Luke Horwell <lukehorwell37+code@gmail.com>
 #
 # Ubuntu MATE Welcome is free software: you can redistribute it and/or modify
-# it under the temms of the GNU General Public License as published by
+# it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
 # (at your option) any later version.
 #
@@ -507,7 +507,7 @@ class PreInstallation(object):
                 elif method == 'manual':
                     # Do we get the apt key from a URL?
                     try:
-                        apt_key_url = preinstall[target]['apt-key-url']
+                        apt_key_url = preinstall[target]['apt-key-url'].replace('OSVERSION',self.os_version).replace('CODENAME',self.codename)
                         print('[Pre-Install] Getting Apt key from URL: "' + apt_key_url + '"')
                         if not simulating:
                             run_task('add_apt_key_from_url')
