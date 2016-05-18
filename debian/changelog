@@ -1,3 +1,14 @@
+ubuntu-mate-welcome (16.10.0~xenial1.6) xenial; urgency=medium
+
+  [ Martin Wimpress ]
+    + Fix manual source string replacements.
+    + Enable Atom for Xenial.
+    + Enable Clementine for Xenial.
+    + Enable Lutris for Xenial.
+    + Disable ownCloud Client.
+
+ -- Martin Wimpress <code@flexion.org>  Tue, 17 May 2016 23:32:21 +0100
+
 ubuntu-mate-welcome (16.10.0~xenial1.5) xenial; urgency=medium
 
   [ Martin Wimpress ]
