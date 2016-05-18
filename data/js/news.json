@@ -1,4 +1,9 @@
 {
+    "16.10.0-xenial1.7": {
+        "fix": [
+            "owncloud-client": "add-source"
+        ]
+    },
     "16.10.0-xenial1.6": {
         "add": [
             "atom",
