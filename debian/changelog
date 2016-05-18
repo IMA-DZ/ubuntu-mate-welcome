@@ -1,9 +1,22 @@
-ubuntu-mate-welcome (16.10.0~xenial1.3) xenial; urgency=medium
+ubuntu-mate-welcome (16.10.0~xenial1.5) xenial; urgency=medium
 
   [ Martin Wimpress ]
-    + Enable Nuvola Player for Xenial.
-    + Enable VirtualBox for Xenial.
+    + Enable OBS Studio for Xenial.
+    + Enable ownCloud Client for Xenial.
+    + Enable Subsurface for Xenial.
+    + Fix SpiderOAK One for Xenial.
     + Update translations.
+
+ -- Martin Wimpress <code@flexion.org>  Tue, 17 May 2016 22:32:21 +0100
+
+ubuntu-mate-welcome (16.10.0~xenial1.4) xenial; urgency=medium
+
+  [ Martin Wimpress ]
+    + Update translations.
+
+ -- Martin Wimpress <code@flexion.org>  Wed, 11 May 2016 23:11:07 +0100
+
+ubuntu-mate-welcome (16.10.0~xenial1.3) xenial; urgency=medium
 
   [ Luke Horwell ]
     + Getting Started
@@ -14,7 +27,21 @@ ubuntu-mate-welcome (16.10.0~xenial1.3) xenial; urgency=medium
     + Boutique
       - Add Boutique News.
       - Show apt instead of apt-get for terminal commands.
-      - Use new 2016 VirtualBox signing key.
+
+ -- Martin Wimpress <code@flexion.org>  Wed, 11 May 2016 19:33:21 +0100
+
+ubuntu-mate-welcome (16.10.0~xenial1.2) xenial; urgency=medium
+
+  [ Luke Horwell ]
+    + Use new 2016 VirtualBox signing key.
+
+ -- Martin Wimpress <code@flexion.org>  Tue, 10 May 2016 23:11:07 +0100
+
+ubuntu-mate-welcome (16.10.0~xenial1.1) xenial; urgency=medium
+
+  [ Martin Wimpress ]
+    + Enable Nuvola Player for Xenial.
+    + Enable VirtualBox for Xenial.
 
  -- Martin Wimpress <code@flexion.org>  Fri, 29 Apr 2016 17:32:21 +0100
 
