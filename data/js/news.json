@@ -1,4 +1,14 @@
 {
+    "16.10.0-xenial1.6": {
+        "add": [
+            "atom",
+            "clementine",
+            "lutris"
+        ],
+        "del": {
+            "owncloud-client": "bad-source"
+        }
+    },
     "16.10.0-xenial1.5": {
         "add": [
             "obs-studio",
