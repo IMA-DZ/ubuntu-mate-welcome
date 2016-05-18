@@ -339,7 +339,7 @@
             "url-android": "https://play.google.com/store/apps/details?id=org.subsurfacedivelog.mobile",
             "url-ios": "https://itunes.apple.com/gb/app/subsurface/id907870605?mt=8",
             "arch": "i386,amd64",
-            "releases": "trusty,wily",
+            "releases": "trusty,wily,xenial",
             "pre-install": {
                 "all": {
                     "method": "ppa",
@@ -2232,7 +2232,7 @@
             "url-android": "https://play.google.com/store/apps/details?id=com.owncloud.android",
             "url-ios": "https://itunes.apple.com/gb/app/owncloud/id543672169",
             "arch": "i386,amd64",
-            "releases": "trusty,wily",
+            "releases": "trusty,wily,xenial",
             "pre-install": {
                 "all": {
                     "method": "manual",
@@ -2350,7 +2350,7 @@
         },
         "spideroakone": {
             "name": "SpiderOakONE",
-            "img": "spideroak",
+            "img": "spideroakone",
             "main-package": "spideroakone",
             "launch-command": "SpiderOakONE",
             "install-packages": "spideroakone",
@@ -2376,14 +2376,14 @@
                 "all": {
                     "method": "manual",
                     "source-file": "spideroakone",
-                    "apt-key-url": "https://spideroak.com/dist/spideroak-apt-2013.asc",
+                    "apt-key-url": "https://spideroak.com/dist/spideroak-apt-2016.asc",
                     "apt-sources": [
                         "deb http://APT.spideroak.com/ubuntu-spideroak-hardy/ release restricted",
-                        " "
+                        ""
                     ]
                 }
             },
-            "working": false
+            "working": true
         },
         "syncthing": {
             "name": "Syncthing",
@@ -3828,7 +3828,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "wily",
+            "releases": "wily,xenial",
             "pre-install": {
                 "all": {
                     "method": "ppa",
