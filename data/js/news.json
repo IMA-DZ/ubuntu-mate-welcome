@@ -1,4 +1,15 @@
 {
+    "16.10.0-xenial1.5": {
+        "add": [
+            "obs-studio",
+            "owncloud-client",
+            "subsurface"
+        ],
+        "fix": {
+            "spideroakone": "new-source"
+        }
+
+    },
     "16.10.0-xenial1.2": {
         "fix": {
             "virtualbox": "new-source"
