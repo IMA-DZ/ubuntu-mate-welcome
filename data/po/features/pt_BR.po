@@ -1,15 +1,17 @@
 # 
 # Translators:
+# BRUNO DE CAMARGO B SILVA <brunocamarggo@gmail.com>, 2016
 # Danilo Silva, 2016
 # Lucas Friederich <lucasalvarokedrines@gmail.com>, 2016
 # Lucas Friederich <lucasalvarokedrines@gmail.com>, 2016
+# Nitai Charan <nitaicharan@gmail.com>, 2016
 # Rodrigo Piñero <rodrigo.pinero@yahoo.com.br>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Ubuntu MATE Welcome\n"
 "POT-Creation-Date: 2016-02-27 12:48+0100\n"
-"PO-Revision-Date: 2016-05-11 18:30+0000\n"
-"Last-Translator: Rodrigo Piñero <rodrigo.pinero@yahoo.com.br>\n"
+"PO-Revision-Date: 2016-05-15 15:55+0000\n"
+"Last-Translator: Nitai Charan <nitaicharan@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/ubuntu-mate/ubuntu-mate-welcome/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -198,7 +200,7 @@ msgid ""
 "VLC can also be used as a streaming server that duplicates the stream it "
 "reads and multicasts them through the network to other clients, or serves "
 "them through HTTP."
-msgstr ""
+msgstr "VLC também pode ser utilizado como um servidor de fluxo que duplica o fluxo ele lê e multidifunde-os através da rede para outros clientes, ou servidores através de HTTP."
 
 #: features.html:217
 msgid ""
@@ -215,7 +217,7 @@ msgid ""
 "Naturally you'll also find a firewall, backup application, document/photo "
 "scanner and printer management all included in Ubuntu MATE. And this is just"
 " the start. The"
-msgstr ""
+msgstr "Naturalmente você também poderá encontrar um firewall, uma aplicação de backup, gerenciador de impressoras e scanners todos presentes em Ubuntu MATE. E isso é apenas o começo. O"
 
 #: features.html:230
 msgid "Software"
@@ -271,13 +273,13 @@ msgstr "Acessibilidade"
 msgid ""
 "Making an accessible operating system was a key priority when the Ubuntu "
 "MATE founders initially set out the goals of the project."
-msgstr ""
+msgstr "Fazendo um sistema operacional acessível era uma prioridade fundamental quando os fundadores MATE Ubuntu inicialmente estabelecidas as metas do projeto."
 
 #: features.html:275
 msgid ""
 "Ubuntu MATE is never going to be able to offer the comprehensive integration"
 " of assistive technologies that"
-msgstr ""
+msgstr "Ubuntu MATE nunca vai ser capaz de oferecer a integração abrangente de tecnologias de apoio que"
 
 #: features.html:277
 msgid "Sonar GNU/Linux"
@@ -288,7 +290,7 @@ msgid ""
 "provides. But Ubuntu MATE will continue to follow their lead so that Ubuntu "
 "MATE is a viable desktop solution where computer access is shared within a "
 "household or business where individual needs differ."
-msgstr ""
+msgstr "fornece. Mas Ubuntu MATE continuará a acompanhar a sua liderança para que o Ubuntu MATE é uma solução de desktop viável onde o acesso ao computador é compartilhado dentro de uma casa ou empresa onde as necessidades individuais diferem"
 
 #: features.html:286
 msgid "Mobile Integration"
@@ -300,4 +302,4 @@ msgid ""
 "You can plug in a phone, media player or digital camera and the device is "
 "automatically detected and mounted. You can then access the files on it or "
 "sync its contents."
-msgstr ""
+msgstr "Atualmente Ubuntu MATE tem o suporte a dispositivos móveis essencial que você esperaria. Você pode conectar um telefone, media player ou câmera digital e o dispositivo é automaticamente detectado e montado. Você pode então acessar os arquivos nele ou sincronizar o seu conteúdo."

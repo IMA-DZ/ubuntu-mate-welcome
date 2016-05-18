@@ -1,11 +1,12 @@
 # 
 # Translators:
+# Kristoffer Ulseth <ulseth85@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Ubuntu MATE Welcome\n"
 "POT-Creation-Date: 2016-02-27 12:48+0100\n"
-"PO-Revision-Date: 2016-03-19 13:26+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2016-05-13 16:25+0000\n"
+"Last-Translator: Kristoffer Ulseth <ulseth85@gmail.com>\n"
 "Language-Team: Norwegian Bokmål (http://www.transifex.com/ubuntu-mate/ubuntu-mate-welcome/language/nb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -16,11 +17,11 @@ msgstr ""
 
 #: features.html:17
 msgid "Features"
-msgstr ""
+msgstr "Funksjoner"
 
 #: features.html:25
 msgid "Modern and Full-Featured"
-msgstr ""
+msgstr "Moderne og fullt utstyrt"
 
 #: features.html:26
 msgid ""
@@ -30,11 +31,11 @@ msgid ""
 "the current release. The operating system is more secure, and better "
 "supported than operating systems that come pre-installed on most home "
 "computer hardware today."
-msgstr ""
+msgstr "Ubuntu MATE er et moderne operativsystem, med en attraktiv og enkel å forstå brukergrensesnitt. Dens oppdatering behandler holder ikke bare selve operativsystemet, men alle sine installerte programmer oppdatert til den gjeldende utgaven. Operativsystemet er sikrere og bedre støttet enn operativsystemer som kommer forhåndsinstallert på de fleste hjemme maskinvarene i dag."
 
 #: features.html:36
 msgid "Pre-Configured Yet Flexible"
-msgstr ""
+msgstr "Forhåndskonfigurert Likevel Fleksibel"
 
 #: features.html:42
 msgid ""
@@ -215,7 +216,7 @@ msgstr ""
 
 #: features.html:230
 msgid "Software"
-msgstr ""
+msgstr "Programvare"
 
 #: features.html:230
 msgid ""

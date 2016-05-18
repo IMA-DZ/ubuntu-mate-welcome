@@ -76,7 +76,7 @@ msgstr ""
 
 #: software.html:45
 msgid "Software Boutique"
-msgstr ""
+msgstr "Software Boutique"
 
 #: software.html:46
 msgid ""
@@ -250,7 +250,7 @@ msgstr ""
 
 #: software.html:118
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: software.html132, 145, 158, 171, 184, 197, 210, 223, 236
 msgid "No Filter"

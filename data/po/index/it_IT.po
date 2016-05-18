@@ -32,7 +32,7 @@ msgstr ""
 
 #: index.html:44
 msgid "Introduction"
-msgstr ""
+msgstr "Introduzione"
 
 #: index.html:45
 msgid "Features"

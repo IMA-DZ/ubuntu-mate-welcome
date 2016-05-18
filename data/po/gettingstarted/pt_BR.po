@@ -1,17 +1,19 @@
 # 
 # Translators:
+# BRUNO DE CAMARGO B SILVA <brunocamarggo@gmail.com>, 2016
 # Bruno Mendes <brunosouza@alunos.utfpr.edu.br>, 2016
 # Danilo Silva, 2016
 # mateusln <mateus.loures@gmail.com>, 2016
 # mateusln <mateus.loures@gmail.com>, 2016
 # Matheus Gaboardi Tralli <matheusgtralli@live.com>, 2016
+# Nitai Charan <nitaicharan@gmail.com>, 2016
 # Rodrigo Piñero <rodrigo.pinero@yahoo.com.br>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Ubuntu MATE Welcome\n"
 "POT-Creation-Date: 2016-02-27 12:48+0100\n"
-"PO-Revision-Date: 2016-05-11 17:36+0000\n"
-"Last-Translator: Rodrigo Piñero <rodrigo.pinero@yahoo.com.br>\n"
+"PO-Revision-Date: 2016-05-15 16:01+0000\n"
+"Last-Translator: Nitai Charan <nitaicharan@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/ubuntu-mate/ubuntu-mate-welcome/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -724,11 +726,11 @@ msgstr ""
 
 #: gettingstarted.html:402
 msgid "An Internet connection is required to download and install drivers."
-msgstr ""
+msgstr "Uma ligação à Internet é necessária para baixar e instalar drivers."
 
 #: gettingstarted.html406, 414, 484
 msgid "Additional Drivers"
-msgstr ""
+msgstr "Drivers adicionais"
 
 #: gettingstarted.html:409
 msgid "Install Firmware Package"
@@ -1032,35 +1034,35 @@ msgstr ""
 
 #: gettingstarted.html:604
 msgid "Chinese"
-msgstr ""
+msgstr "Chinês "
 
 #: gettingstarted.html:607
 msgid "Japanese"
-msgstr ""
+msgstr "Japonês"
 
 #: gettingstarted.html:610
 msgid "Korean"
-msgstr ""
+msgstr "Coreano"
 
 #: gettingstarted.html:626
 msgid "Backup, Firewall and User Management"
-msgstr ""
+msgstr "Backup, Firewall e controle de usuários"
 
 #: gettingstarted.html:627
 msgid ""
 "Ubuntu MATE provides tools to backup your files, comes with a firewall pre-"
 "installed and supports multiple user accounts."
-msgstr ""
+msgstr "Ubuntu MATE fornece ferramentas para o backup de seus arquivos, vem com um firewall já pré-instalado e suporte a várias contas de usuários"
 
 #: gettingstarted.html638, 649
 msgid "Backups"
-msgstr ""
+msgstr "Backups"
 
 #: gettingstarted.html:639
 msgid ""
 "Nothing is more important then having a backup of your personal files, just "
 "in case something disastrous happens to your computer."
-msgstr ""
+msgstr "Nada é mais importante que ter um backup de seus arquivos pessoais,  em caso que algo desastroso aconteça com o seu computador."
 
 #: gettingstarted.html:643
 msgid ""
@@ -1074,7 +1076,7 @@ msgstr ""
 
 #: gettingstarted.html:662
 msgid "Firewall"
-msgstr ""
+msgstr "Firewall"
 
 #: gettingstarted.html:663
 msgid ""
@@ -1084,7 +1086,7 @@ msgstr ""
 
 #: gettingstarted.html:665
 msgid "learn more about firewalls"
-msgstr ""
+msgstr "aprenda mais sobre firewalls"
 
 #: gettingstarted.html:667
 msgid "provides a graphical frontend to"
@@ -1108,22 +1110,22 @@ msgstr ""
 
 #: gettingstarted.html:674
 msgid "Firewall Configuration"
-msgstr ""
+msgstr "Configuração do Firewall"
 
 #: gettingstarted.html:676
 msgid "Internet and Network"
-msgstr ""
+msgstr "Internet e Rede"
 
 #: gettingstarted.html:687
 msgid "Users"
-msgstr ""
+msgstr "Usuários"
 
 #: gettingstarted.html:689
 msgid ""
 "Share your computer with others? Set up a separate user account for each "
 "user to protect the individual privacy of each user sharing the same "
 "computer."
-msgstr ""
+msgstr "Compartilha seu computador com outras pessoas? Configure uma contra de usuário separada para cada um afim proteger a privacidade individual de quem compartilha o mesmo computador "
 
 #: gettingstarted.html:692
 msgid "You can also log in to a"
@@ -1750,7 +1752,7 @@ msgstr ""
 
 #: gettingstarted.html:1238
 msgid "Could not gather data."
-msgstr ""
+msgstr "Não foi possível reunir dados."
 
 #: gettingstarted.html:1250
 msgid "System Profiler and Benchmark"

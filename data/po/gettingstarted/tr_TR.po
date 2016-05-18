@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ubuntu MATE Welcome\n"
 "POT-Creation-Date: 2016-02-27 12:48+0100\n"
-"PO-Revision-Date: 2016-05-09 07:36+0000\n"
+"PO-Revision-Date: 2016-05-18 08:00+0000\n"
 "Last-Translator: Kaan BODUR <kaanbodur@gmail.com>\n"
 "Language-Team: Turkish (Turkey) (http://www.transifex.com/ubuntu-mate/ubuntu-mate-welcome/language/tr_TR/)\n"
 "MIME-Version: 1.0\n"
@@ -954,21 +954,21 @@ msgstr "Yazıcılar"
 
 #: gettingstarted.html:531
 msgid "When you set up a printer in the"
-msgstr ""
+msgstr "Yeni bir yazıcıyı"
 
 #: gettingstarted.html:535
 msgid "utility"
-msgstr ""
+msgstr "hizmetini kullanarak kurduğunuzda"
 
 #: gettingstarted.html:535
 msgid "under"
-msgstr ""
+msgstr "şurada"
 
 #: gettingstarted.html:536
 msgid ""
 "you will be presented with a list of drivers available to use, if "
 "applicable."
-msgstr ""
+msgstr "eğer uygulanabilir olanlar mevcutsa, kullanılabilir sürücülerin bir listesi size sunulur. "
 
 #: gettingstarted.html:539
 msgid ""
@@ -1084,7 +1084,7 @@ msgstr "Güvenlik duvarı yapılandırmaları hakkında daha fazla öğrenmek i�
 
 #: gettingstarted.html:667
 msgid "provides a graphical frontend to"
-msgstr ""
+msgstr "şunun için basit bir grafik arayüz sunar: "
 
 #: gettingstarted.html:668
 msgid "Uncomplicated Firewall"
@@ -1096,7 +1096,7 @@ msgstr "Eğer güvenlik sizin için önemliyse,"
 
 #: gettingstarted.html:669
 msgid "more ways to stay secure too"
-msgstr ""
+msgstr "güvenliği sağlamanın daha birçok yolu var. "
 
 #: gettingstarted.html:671
 msgid "Configure Firewall"
@@ -1482,14 +1482,14 @@ msgid ""
 "Enables an 'expose' like feature that presents you with all the windows you "
 "currently have open, allowing you to select the one you wish to give focus "
 "to."
-msgstr ""
+msgstr "\"Göster\" özelliğine benzer bir işleyişle açık olan tüm pencereleri sergiler, odaklanmak istediğinize geçiş yapmanıza olanak sağlar. "
 
 #: gettingstarted.html:995
 msgid ""
 "Unfolds your workspace cube allowing you to see more than one of your "
 "workspaces at once, using the left and right cursor keys with this active "
 "will allow you to select the workspace you wish to use."
-msgstr ""
+msgstr "Birden fazla çalışma alanına aynı anda göz atmanızı sağlayan çalışma alanı küpünü ortaya çıkarır, sağ ve sol yön tuşlarını kullanarak kullanmak istediğiniz çalışma alanına geçiş yapabilirsiniz. "
 
 #: gettingstarted.html999, 1003, 1007, 1011, 1015, 1019, 1023
 msgid "Super"
@@ -1497,16 +1497,16 @@ msgstr "Windows Tuşu"
 
 #: gettingstarted.html:1000
 msgid "Zoom out, show workspace switcher."
-msgstr ""
+msgstr "Uzaklaşır, çalışma alanın seçiciyi gösterir. "
 
 #: gettingstarted.html:1004
 msgid ""
 "Enables the 'scale' effect, it shows all windows from the current workspace."
-msgstr ""
+msgstr "\"Ölçekleme\" etkisini etkinleştirir, geçerli çalışma alanındaki tüm pencereleri gösterir. "
 
 #: gettingstarted.html:1008
 msgid "Enables the 'scale' effect, it shows all windows from all workspaces."
-msgstr ""
+msgstr "\"Ölçekleme\" etkisini etkinleştirir, tüm çalışma alanlarındaki pencereleri gösterir. "
 
 #: gettingstarted.html:1012
 msgid "Invert colors of the focused window."
@@ -1518,11 +1518,11 @@ msgstr "Tüm ekran renklerini tersine çevir."
 
 #: gettingstarted.html:1019
 msgid "Mouse Scroll"
-msgstr ""
+msgstr "Kaydırma"
 
 #: gettingstarted.html:1020
 msgid "Zooms in on the screen."
-msgstr ""
+msgstr "Ekrana yakınlaşır."
 
 #: gettingstarted.html1023, 1031
 msgid "Middle Mouse Button"
@@ -1530,7 +1530,7 @@ msgstr "Orta Fare Tuşu"
 
 #: gettingstarted.html:1024
 msgid "Select a region to zoom into, using a rectangle."
-msgstr ""
+msgstr "Bir dikdörtgen kullanarak, yakınlaşılacak alanı seç."
 
 #: gettingstarted.html:1027
 msgid "Left Mouse Button"
@@ -1538,11 +1538,11 @@ msgstr "Sol Fare Tuşu"
 
 #: gettingstarted.html:1028
 msgid "Move focused window."
-msgstr ""
+msgstr "Odaklanılan pencereyi hareket ettir."
 
 #: gettingstarted.html:1032
 msgid "Resize focused window."
-msgstr ""
+msgstr "Odaklanılan pencereyi yeniden boyutlandır."
 
 #: gettingstarted.html:1035
 msgid "Right Mouse Button"
@@ -1550,14 +1550,14 @@ msgstr "Sağ Fare Tuşu"
 
 #: gettingstarted.html:1036
 msgid "Show window menu."
-msgstr ""
+msgstr "Pencere menüsünü göster."
 
 #: gettingstarted.html:1054
 msgid ""
 "Your machine is made up of various components that interact with one "
 "another. This information is useful when providing support to ensure "
 "hardware and software works on your machine."
-msgstr ""
+msgstr "Makineniz birbirleriyle etkileşim içerisinde olan farklı bileşenlerden oluşmuştur. Bunlar hakkındaki bilgiler, makinenizde çalışan donanım ve yazılım için destek sağlama aşamasında faydalıdır. "
 
 #: gettingstarted.html:1060
 msgid "Please wait while the information is being populated..."
@@ -1597,7 +1597,7 @@ msgstr "Önyükleme Modu:"
 
 #: gettingstarted.html:1099
 msgid "Displays the mode that Ubuntu MATE is communicating with the firmware."
-msgstr ""
+msgstr "Ubuntu MATE'nin aygıt yazılımı ile iletişim kurduğu modu görüntüler. "
 
 #: gettingstarted.html:1107
 msgid "Processor"
@@ -1702,7 +1702,7 @@ msgstr "Neden iki birim görüyorum?"
 
 #: gettingstarted.html:1214
 msgid "SI or IEC Units?"
-msgstr "SI ya da IEC birimleri?"
+msgstr "SI, IEC birimlerinden hangisi?"
 
 #: gettingstarted.html:1216
 msgid "Decimal (SI Standard)"
@@ -1718,7 +1718,7 @@ msgstr "Telaffuzu \"ga\" şeklindedir. \"Mega\", \"Ciga\" gibi"
 
 #: gettingstarted.html:1220
 msgid "Common in every day applications and file storage."
-msgstr ""
+msgstr "Günlük uygulamalar ve dosya depolama için. "
 
 #: gettingstarted.html:1224
 msgid "Binary (IEC Standard)"
@@ -1734,15 +1734,15 @@ msgstr "Telaffuzu \"bi\" şeklindedir. \"Mebi\", \"Cibi\" gibi"
 
 #: gettingstarted.html:1228
 msgid "Common in RAM, drives and partitions, including tools like GParted."
-msgstr ""
+msgstr "Bellek, GParted gibi araçları da içeren sürücü ve bölümlemeler için. "
 
 #: gettingstarted.html:1237
 msgid "The following information is retrieved directly from the"
-msgstr ""
+msgstr "Ekteki bilgiler doğrudan şuradan alınmıştır: "
 
 #: gettingstarted.html:1237
 msgid "command line program."
-msgstr "Komut satırı programı."
+msgstr "komut satırı programı."
 
 #: gettingstarted.html:1238
 msgid "Could not gather data."
@@ -1750,13 +1750,13 @@ msgstr "Veriler toplanamadı. "
 
 #: gettingstarted.html:1250
 msgid "System Profiler and Benchmark"
-msgstr ""
+msgstr "Sistem Profiler ve Bencmark"
 
 #: gettingstarted.html:1251
 msgid ""
 "See more specific system information in a graphical window, including "
 "connected USBs, PCI devices and a simple CPU benchmark."
-msgstr ""
+msgstr "Bağlı USB'ler, PCI cihazları ve basit bir CPU benchmark gibi spesifik bilgileri bir grafik ekranda görün."
 
 #: gettingstarted.html:1266
 msgid "Disks"
@@ -1767,24 +1767,24 @@ msgid ""
 "A pre-installed utility that allows basic configuration to your disks and "
 "partitions, including formatting, partitioning, mounting, viewing S.M.A.R.T "
 "data and writing images to SD cards/USB drives."
-msgstr ""
+msgstr "Disk ve disk bölümleriniz için biçimlendirme, bölümleme, bağlama, S.M.A.R.T verileri görüntüleme ve kalıpları SD kart/ USB aygıtlara yazma gibi temel yapılandırmaları gerçekleştirmenize sağlayan ön tanımlı bir araç. "
 
 #: gettingstarted.html:1284
 msgid ""
 "An advanced tool for viewing, creating, modifying and deleting partitions. "
 "It also has features to expand/shrink file systems and supports a wide range"
 " of formats."
-msgstr ""
+msgstr "Disk bölümlemelerini görüntüleme, oluşturma, değiştirme ve silme işlemleri için gelişmiş bir araç. "
 
 #: gettingstarted.html:1299
 msgid "Disk Usage Analyser"
-msgstr ""
+msgstr "Disk Kullanım Analizcisi"
 
 #: gettingstarted.html:1300
 msgid ""
 "A graphical tool for exploring your file system or individual folders to "
 "determine how much space is being used."
-msgstr ""
+msgstr "Dosya sisteminizin ya da kişisel dosyalarınızın ne kadar alan kapladığını öğrenmenize yarayan bir grafik araç. "
 
 #: gettingstarted.html:1315
 msgid "System Monitor"
@@ -1794,7 +1794,7 @@ msgstr "Sistem Gözlemcisi"
 msgid ""
 "Views currently running processes, resource usage, and the amount of space "
 "used and free for currently mounted file systems."
-msgstr ""
+msgstr "Mevcut işlemleri, kaynak kullanımını, bağlı disklerdeki kullanılan ve boş olan alanları görüntüler. "
 
 #: gettingstarted.html:1331
 msgid "Psensor"
@@ -1804,13 +1804,13 @@ msgstr "Psensör"
 msgid ""
 "Views and graphs the current temperature of components attached to the "
 "system. Including: Motherboard, CPU, GPU and hard disks."
-msgstr ""
+msgstr "Ana kart, CPU, GPU ve sabit disk. gibi sisteminize bağlı mevcut bileşenlerin sıcaklıklarını görüntüler ve grafiklerini verir. "
 
 #: gettingstarted.html:583
 msgid ""
 "Your computer may require updates to your language and localization "
 "settings, or you may want to install additional language support."
-msgstr ""
+msgstr "Dil ve yerelleştirme ayarlarınızı güncellemeniz gerekebilir ya da ilave dil desteği yükleyebilirsiniz. "
 
 #: gettingstarted.html:1182
 msgid "Ubuntu MATE Usage"

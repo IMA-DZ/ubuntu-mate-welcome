@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ubuntu MATE Welcome\n"
 "POT-Creation-Date: 2016-02-27 12:48+0100\n"
-"PO-Revision-Date: 2016-05-08 08:48+0000\n"
-"Last-Translator: Sarper S <fmdoge@gmail.com>\n"
+"PO-Revision-Date: 2016-05-18 08:08+0000\n"
+"Last-Translator: Kaan BODUR <kaanbodur@gmail.com>\n"
 "Language-Team: Turkish (Turkey) (http://www.transifex.com/ubuntu-mate/ubuntu-mate-welcome/language/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -188,31 +188,31 @@ msgstr "Şu anda, donanımsal hızlandırmaya sahip uygulamalar "
 
 #: rpi.html:116
 msgid "not supported"
-msgstr ""
+msgstr "desteklenmemektedir. "
 
 #: rpi.html:117
 msgid "unlike"
-msgstr ""
+msgstr "Şunun aksine: "
 
 #: rpi.html:118
 msgid ""
 "Applications that depend on OpenGL ES libraries or require the GPU will fail"
 " to start."
-msgstr ""
+msgstr "OpenGL ES bağımlılığı ya da GPU gerektiren uygulamalar çalışmayacaktır. "
 
 #: rpi.html:121
 msgid "For playing videos, the application"
-msgstr ""
+msgstr "Video oynatmak için, "
 
 #: rpi.html:121
 msgid ""
 "will be able to do this and is pre-installed. If you are looking to play "
 "MPEG-2 or VC-1 video files then"
-msgstr ""
+msgstr "uygulaması ön yüklü olarak gelir ve işinizi görecektir. MPEG-2 ya da VC-1 vidyo dosyalarını oynatmak istiyorsanız, "
 
 #: rpi.html:123
 msgid "you will need MPEG-2 and/or VC-1 licenses from the"
-msgstr ""
+msgstr "MPEG-2 ve VC-1 lisanlarına ihtiyacınız vardır. "
 
 #: rpi.html:124
 msgid "Raspberry Pi Store."
@@ -224,17 +224,17 @@ msgstr "X11 Devrede/Devredışı"
 
 #: rpi.html:128
 msgid "For users who are looking to create their own headless"
-msgstr ""
+msgstr "Ubuntu MATE'yi kullanarak kendi "
 
 #: rpi.html:128
 msgid "\"server\""
-msgstr ""
+msgstr "sunucusunu"
 
 #: rpi.html:128
 msgid ""
 "using Ubuntu MATE, there is a utility for toggling the graphical "
 "environment."
-msgstr ""
+msgstr "oluşturmak isteyenler için grafik ekrana geçiş yapmaya yarayan bir araç vardır. "
 
 #: rpi.html:131
 msgid "To disable X11 and login via the console:"
@@ -242,7 +242,7 @@ msgstr "X11'i devreden çıkart ve konsol aracılığı ile giriş yap."
 
 #: rpi.html:135
 msgid "To enable X11 to restore the Ubuntu MATE desktop:"
-msgstr ""
+msgstr "Ubuntu MATE masaüstünün geri getirme amacıyla X11'i etkinleştirmek için:"
 
 #: rpi.html:138
 msgid "Changes take effect after a reboot."
@@ -260,4 +260,4 @@ msgstr "Sürüm notlarını ve bu sürüm ile birlikte değişenleri okumak içi
 
 #: rpi.html:150
 msgid "Raspberry Pi is a trademark of the"
-msgstr ""
+msgstr "Raspberry Pi bir ticari markadır. "

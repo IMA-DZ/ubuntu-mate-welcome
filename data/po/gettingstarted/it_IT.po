@@ -509,7 +509,7 @@ msgstr ""
 
 #: gettingstarted.html:267
 msgid "and"
-msgstr ""
+msgstr "e"
 
 #: gettingstarted.html:267
 msgid "These mount points can also be set across different"
