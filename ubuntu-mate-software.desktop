@@ -5,5 +5,5 @@ Categories=PackageManager;System;Settings;
 Name=Software Boutique
 Comment=Ubuntu MATE Software Boutique
 Exec=ubuntu-mate-welcome --software-only
-Icon=system-software-install
+Icon=software-boutique
 StartupNotify=false
