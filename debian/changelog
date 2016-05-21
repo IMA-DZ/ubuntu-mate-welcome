@@ -1,3 +1,14 @@
+ubuntu-mate-welcome (16.10.0~xenial1.7) xenial; urgency=medium
+
+  [ Luke Horwell ]
+    + Boutique
+      - ownCloud added.
+      - Add search facility.
+    + Misc.
+      - Move commented code to documentation folder.
+
+ -- Martin Wimpress <code@flexion.org>  Sat, 21 May 2016 14:11:35 +0100
+
 ubuntu-mate-welcome (16.10.0~xenial1.6) xenial; urgency=medium
 
   [ Martin Wimpress ]
