@@ -834,6 +834,7 @@ class AppView(WebKit.WebView):
             dynamicapps.update_app_status(self, 'keyboard-japanese')
             dynamicapps.update_app_status(self, 'keyboard-korean')
             dynamicapps.update_app_status(self, 'caja-share')
+            dynamicapps.update_app_status(self, 'libdvdcss2')
 
         ### Software Page ###
         if self.current_page == 'software.html':
