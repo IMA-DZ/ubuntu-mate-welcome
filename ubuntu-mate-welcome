@@ -840,7 +840,7 @@ class AppView(WebKit.WebView):
 
         ### Software Page ###
         if self.current_page == 'software.html':
-            dynamicapps.hide_non_free = False
+            dynamicapps.toggle_non_free()
             self.do_smooth_footer = True
 
             # If loading a minimal "Get More Software" only page.
@@ -1763,7 +1763,7 @@ class DynamicApps(object):
 
         # Variables to remember common details.
         self.all_categories = ['Accessories', 'Education', 'Games', 'Graphics', 'Internet', 'Office', 'Programming', 'Media', 'SysTools', 'UnivAccess', 'Servers', 'MoreApps']
-        self.hide_non_free = False
+        self.hide_non_free = pref.get('hide_non_free', False)
 
         # Reading the apt cache later.
         self._apt_cache = apt.Cache()
@@ -2256,19 +2256,28 @@ class DynamicApps(object):
                          '--window-icon=error',
                          '--timeout=15'])
 
+    def toggle_non_free(self):
+        # Toggles visibility of non-free software.
+        if self.hide_non_free:
+            app.update_page('#nonFreeCheckBox', 'removeClass', 'fa-square')
+            app.update_page('#nonFreeCheckBox', 'addClass', 'fa-check-square')
+        else:
+            app.update_page('#nonFreeCheckBox', 'addClass', 'fa-square')
+            app.update_page('#nonFreeCheckBox', 'removeClass', 'fa-check-square')
+
+
     def apply_filter(self, webkit, filter_value, nonfree_toggle=False):
         sub_css_class = 'filter-' + filter_value
 
-        # Toggle visibility of non-free software.
         if nonfree_toggle:
+            # Toggle the option on/off
             if self.hide_non_free:
                 self.hide_non_free = False
-                webkit.execute_script('$("#nonFreeCheckBox").addClass("fa-square");')
-                webkit.execute_script('$("#nonFreeCheckBox").removeClass("fa-check-square");')
+                pref.set('hide_non_free', False)
             else:
                 self.hide_non_free = True
-                webkit.execute_script('$("#nonFreeCheckBox").removeClass("fa-square");')
-                webkit.execute_script('$("#nonFreeCheckBox").addClass("fa-check-square");')
+                pref.set('hide_non_free', True)
+            self.toggle_non_free()
 
         if filter_value == 'none':
             arg.print_verbose('Apps','Filter reset.')
