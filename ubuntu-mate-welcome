@@ -40,7 +40,6 @@ import logging
 import os
 import platform
 import random
-import re
 import shutil
 import signal
 import socket
@@ -2473,19 +2472,47 @@ class DynamicApps(object):
                 regex = re.compile(".*(" + word + ").*", re.IGNORECASE)
                 results = [m.group(0) for l in category_items for m in [regex.search(l)] if m]
 
-            for program_id in results:
-                self.set_app_info(category, program_id)
-                return_code = self.append_app_listing(category, program_id, '#search-results')
-                if not return_code == 1 or return_code == 2:
-                    dynamicapps.update_app_status(app.webkit, program_id)
-                    total_results = total_results + 1
+                # Any matches? List them!
+                app_matched = False
+                matched_results = []
+                for term in terms.split(' '):
+                    matched_results.append(program_id.find(term))
+                    matched_results.append(name.find(term))
+                    matched_results.append(desc.find(term))
+                    matched_results.append(alto.find(term))
+                    for status in matched_results:
+                        if status != -1:
+                            app_matched = True
+                            break
+
+                if app_matched:
+                    # Skip this if user doesn't want non-free software.
+                    oss = self.index[category][program_id]['open-source']
+                    if self.hide_non_free and not oss:
+                        hidden_results = hidden_results + 1
+                        continue
+
+                    # Display result to user, if it works on the system (return code 0)
+                    self.set_app_info(category, program_id)
+                    return_code = self.append_app_listing(category, program_id, '#search-results')
+                    if not return_code == 1 or return_code == 2:
+                        dynamicapps.update_app_status(self, program_id)
+                        total_results = total_results + 1
 
         if total_results == 0:
             app.update_page('#search-empty', 'fadeIn')
+            if hidden_results > 0:
+                app.update_page('#search-retry-nonfree', 'show')
+            else:
+                app.update_page('#search-retry-nonfree', 'hide')
         else:
             app.update_page('#search-results', 'fadeIn')
             app.update_page('#search-total', 'fadeIn')
-            app.update_page('#search-total', 'html', '<b>' + _("Matched:") + '</b> ' + str(total_results) + ' ' + _("applications."))
+            app.update_page('#search-total', 'html', '<b>' + str(total_results) + ' ' + _("applications found.") + '</b>')
+
+            # If non-free filtering is enabled, inform of how many apps were hidden.
+            if self.hide_non_free and hidden_results > 0:
+                app.update_page('#search-total', 'append', '&nbsp;<a onclick="searchAgainNonFree()">' + str(hidden_results) + ' ' + _(" proprietary applications are hidden.") + '</a>')
 
 
 class ScreenshotWindow(Gtk.Window):
