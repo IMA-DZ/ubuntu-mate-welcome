@@ -40,7 +40,6 @@ import logging
 import os
 import platform
 import random
-import re
 import shutil
 import signal
 import socket
@@ -111,8 +110,33 @@ def set_proc_title(name=None):
     return ret
 
 
+def whereami():
+    """ Determine data source """
+    current_folder = os.path.dirname( os.path.abspath(inspect.getfile(inspect.currentframe())) )
+    if( os.path.exists( os.path.join(current_folder, 'data/' ) ) ):
+        arg.print_verbose('Debug', 'Using relative path for data source. Non-production testing.')
+        data_path = os.path.join(current_folder, 'data/')
+    elif( os.path.exists('/usr/share/ubuntu-mate-welcome/') ):
+        arg.print_verbose('Debug', 'Using /usr/share/ubuntu-mate-welcome/ path.')
+        data_path = '/usr/share/ubuntu-mate-welcome/'
+    else:
+        print('Unable to source the ubuntu-mate-welcome data directory.')
+        sys.exit(1)
+    return data_path
+
+
+def notify_send(title, description, icon_path):
+    # Sends a system notification to the user.
+    Notify.init(title)
+    notification=Notify.Notification.new(title, description, icon_path)
+    notification.show()
+
+
+##################################
+#  Apt and Installation Operations
+##################################
 class SimpleApt(object):
-    def __init__(self, packages, action):
+    def __init__(self, packages, action, program_id=None):
         self._timeout = 100
         self.packages = packages
         self.action = action
@@ -120,6 +144,7 @@ class SimpleApt(object):
         self.update_cache = False
         self.loop = GLib.MainLoop()
         self.client = AptClient()
+        self.program_id = program_id
 
     def on_error(self, error):
         dynamicapps.operations_busy = False
@@ -138,38 +163,32 @@ class SimpleApt(object):
         dynamicapps.operations_busy = False
         self.loop.quit()
         if status == 'exit-success':
-            Notify.init(_('Fixing incomplete install succeeded'))
-            apt_notify=Notify.Notification.new(_('Successfully fixed an incomplete install.'), _('Fixing the incomplete install was successful.'), 'dialog-information')
-            apt_notify.show()
+            notify_send( _("Successfully performed fix."), _("Any previously incomplete installations have been finished."), data_path + 'img/notify/fix-success.svg' )
             return True
         else:
-            Notify.init(_('Fixing incomplete install failed'))
-            apt_notify=Notify.Notification.new(_('Failed to fix incomplete install.'), _('Fixing the incomplete install failed.'), 'dialog-error')
-            apt_notify.show()
+            notify_send( _("Failed to perform fix."), _("Errors occurred while finishing an incomplete installation."), data_path + 'img/notify/fix-error.svg' )
             return False
 
     def on_finished_fix_broken_depends(self, transaction, status):
         dynamicapps.operations_busy = False
         self.loop.quit()
         if status == 'exit-success':
-            Notify.init(_('Fixing broken dependencies succeeded'))
-            apt_notify=Notify.Notification.new(_('Successfully fixed broken dependencies.'), _('Fixing the broken dependencies was successful.'), 'dialog-information')
-            apt_notify.show()
+            notify_send( _("Successfully performed fix."), _("Packages with broken dependencies have been resolved."), data_path + 'img/notify/fix-success.svg')
             return True
         else:
-            Notify.init(_('Fixing broken dependencies failed'))
-            apt_notify=Notify.Notification.new(_('Failed to fix broken dependencies.'), _('Fixing the broken dependencies failed.'), 'dialog-error')
-            apt_notify.show()
+            notify_send( _("Failed to perform fix."), _("Packages may still have broken dependencies."), data_path + 'img/notify/fix-error.svg')
             return False
 
     def on_finished_update(self, transaction, status):
         dynamicapps.operations_busy = False
-        # If the action is only to update do not display notifcations
+        # Show notification if user forces cache update.
         if self.action == 'update':
             self.loop.quit()
             if status == 'exit-success':
+                notify_send(_("Successfully updated cache."), _("Software is now ready to install."), data_path + 'img/notify/fix-success.svg')
                 return True
             else:
+                notify_send( _("Failed to update cache."), _("There may be a problem with your repository configuration."), data_path + 'img/notify/fix-error.svg')
                 return False
         elif self.action == 'install':
             if status != 'exit-success':
@@ -213,33 +232,101 @@ class SimpleApt(object):
             self.do_notify(status)
 
     def do_notify(self, status):
-        print('Status: ' + status)
-        if self.action == 'install':
-            title = _('Install')
-            noun = _('Installation of ')
-            action = _('installed.')
-        elif self.action == 'remove':
-            title = _('Remove')
-            noun = _('Removal of ')
-            action = _('removed.')
-        elif self.action == 'upgrade':
-            title = _('Upgrade')
-            noun = _('Upgrade of ')
-            action = _('upgraded.')
+        # Notifications for individual applications.
+        if self.program_id:
+            name = dynamicapps.get_attribute_for_app(self.program_id, 'name')
+            img = dynamicapps.get_attribute_for_app(self.program_id, 'img')
+            img_path = os.path.join(data_path, 'img', 'applications', img + '.png')
+            if not os.path.exists(img_path):
+                img_path = 'package'
 
-        # Do not show notifications when updating the cache
-        if self.action != 'update':
-            if status == 'exit-success':
-                Notify.init(title + ' ' + _('complete'))
-                apt_notify=Notify.Notification.new(title + ' ' + _('complete'), ', '.join(self.packages) + ' ' + _('has been successfully ') +action, 'dialog-information')
-            elif status == 'exit-cancelled':
-                Notify.init(title + ' ' + _('cancelled'))
-                apt_notify=Notify.Notification.new(title + ' ' + _('cancelled'), noun + ', '.join(self.packages) + ' ' + _('was cancelled.'), 'dialog-information')
-            else:
-                Notify.init(title + ' ' + _('failed'))
-                apt_notify=Notify.Notification.new(title + ' ' + _('failed'), noun + ', '.join(self.packages) + ' ' + _('failed.'), 'dialog-error')
+            print('[Apps] Changed status for "' + self.program_id + '": ' + status)
 
-            apt_notify.show()
+            # Show a different notification for Welcome Updates
+            if self.program_id == 'ubuntu-mate-welcome' and status == 'exit-success':
+                notify_send( _("Welcome will stay up-to-date."), \
+                             _("Welcome and the Software Boutique are set to receive the latest updates."), \
+                             os.path.join(data_path, 'img', 'welcome', 'ubuntu-mate-icon.svg'))
+                return
+
+            # Show a different notification for "Upgrade Installed Packages" fix
+            if self.program_id == 'ubuntu-standard' and status == 'exit-success':
+                notify_send( _("Everything is up-to-date"), \
+                             _("All packages have been upgraded to the latest versions."), \
+                             os.path.join(data_path, 'img', 'welcome', 'ubuntu-mate-icon.svg'))
+                return
+
+            if self.action == 'install':
+                title_success   = name + ' ' + _('Installed')
+                descr_success   = _("The application is now ready to use.")
+
+                title_cancel    = name + ' ' + _("was not installed.")
+                descr_cancel    = _("The operation was cancelled.")
+
+                title_error     = name + ' ' + _("failed to install")
+                descr_error     = _("There was a problem installing this application.")
+
+            elif self.action == 'remove':
+                title_success   = name + ' ' + _('Removed')
+                descr_success   = _("The application has been uninstalled.")
+
+                title_cancel    = name + ' ' + _("was not removed.")
+                descr_cancel    = _("The operation was cancelled.")
+
+                title_error     = name + ' ' + _("failed to remove")
+                descr_error     = _("A problem is preventing this application from being removed.")
+
+            elif self.action == 'upgrade':
+                title_success   = name + ' ' + _('Upgraded')
+                descr_success   = _("This application is set to use the latest version.")
+
+                title_cancel    = name + ' ' + _("was not upgraded.")
+                descr_cancel    = _("The application will continue to use the stable version.")
+
+                title_error     = name + ' ' + _("failed to upgrade")
+                descr_error     = _("A problem is preventing this application from being upgraded.")
+
+            # Do not show notifications when updating the cache
+            if self.action != 'update':
+                if status == 'exit-success':
+                    notify_send(title_success, descr_success, img_path)
+                    #~ queue.ui_rm_card(self.program_id)
+                    #~ queue.ui_add_card(self.program_id, card_status+'-ok')
+                elif status == 'exit-cancelled':
+                    notify_send(title_cancel, descr_cancel, img_path)
+                else:
+                    notify_send(title_error, descr_error, img_path)
+
+        # Notifications for bulk operations
+        else:
+            if self.action == 'install':
+                title_success   = str(len(queue.install_queue)) + ' ' + _("applications have been installed")
+                descr_success   = _("Your newly installed applications are ready to use.")
+
+                title_cancel    = _("Some applications were not installed.")
+                descr_cancel    = _("The operation was cancelled.")
+
+                title_error     = _("Some applications failed to install.")
+                descr_error     = _("Software Boutique encountered a problem with one of the applications.")
+
+            elif self.action == 'remove':
+                title_success   = str(len(queue.remove_queue)) + ' ' + _("applications have been removed")
+                descr_success   = _("These applications are no longer present on your system.")
+
+                title_cancel    = _("Some applications were not removed.")
+                descr_cancel    = _("The operation was cancelled.")
+
+                title_error     = _("Some applications failed to remove.")
+                descr_error     = _("Software Boutique encountered a problem with one of the applications.")
+
+            # Do not show notifications when updating the cache
+            if self.action != 'update':
+                if status == 'exit-success':
+                    notify_send(title_success, descr_success, data_path + 'img/notify/bulk-success.svg')
+                elif status == 'exit-cancelled':
+                    notify_send(title_cancel, descr_cancel,  data_path + 'img/notify/bulk-warning.svg')
+                else:
+                    notify_send(title_error, descr_error,  data_path + 'img/notify/bulk-error.svg')
 
     def do_fix_incomplete_install(self):
         dynamicapps.operations_busy = True
@@ -413,6 +500,8 @@ class PreInstallation(object):
 
         # Get category for this program, which can be used to retrieve data later.
         category = dynamicapps.get_attribute_for_app(program_id, 'category')
+        fullname = dynamicapps.get_attribute_for_app(program_id, 'img')
+        img = dynamicapps.get_attribute_for_app(program_id, 'img')
 
         try:
             preconfig = dynamicapps.index[category][program_id]['pre-install']
@@ -443,7 +532,7 @@ class PreInstallation(object):
         else:
             print('[Apps] ERROR: No package(s) supplied for "' + program_id + '".')
             return
-        transaction = SimpleApt(packages, action)
+        transaction = SimpleApt(packages, action, program_id)
 
         # Function to run privileged commands.
         def run_task(function):
@@ -834,10 +923,13 @@ class AppView(WebKit.WebView):
             dynamicapps.update_app_status(self, 'keyboard-japanese')
             dynamicapps.update_app_status(self, 'keyboard-korean')
             dynamicapps.update_app_status(self, 'caja-share')
+            dynamicapps.update_app_status(self, 'libdvdcss2')
+            dynamicapps.update_app_status(self, 'xscreensaver')
+            dynamicapps.update_app_status(self, 'wallpapers')
 
         ### Software Page ###
         if self.current_page == 'software.html':
-            dynamicapps.hide_non_free = False
+            dynamicapps.toggle_non_free()
             self.do_smooth_footer = True
 
             # If loading a minimal "Get More Software" only page.
@@ -1760,7 +1852,7 @@ class DynamicApps(object):
 
         # Variables to remember common details.
         self.all_categories = ['Accessories', 'Education', 'Games', 'Graphics', 'Internet', 'Office', 'Programming', 'Media', 'SysTools', 'UnivAccess', 'Servers', 'MoreApps']
-        self.hide_non_free = False
+        self.hide_non_free = pref.get('hide_non_free', False)
 
         # Reading the apt cache later.
         self._apt_cache = apt.Cache()
@@ -2253,19 +2345,27 @@ class DynamicApps(object):
                          '--window-icon=error',
                          '--timeout=15'])
 
+    def toggle_non_free(self):
+        # Toggles visibility of non-free software.
+        if self.hide_non_free:
+            app.update_page('#nonFreeCheckBox', 'removeClass', 'fa-square')
+            app.update_page('#nonFreeCheckBox', 'addClass', 'fa-check-square')
+        else:
+            app.update_page('#nonFreeCheckBox', 'addClass', 'fa-square')
+            app.update_page('#nonFreeCheckBox', 'removeClass', 'fa-check-square')
+
     def apply_filter(self, webkit, filter_value, nonfree_toggle=False):
         sub_css_class = 'filter-' + filter_value
 
-        # Toggle visibility of non-free software.
         if nonfree_toggle:
+            # Toggle the option on/off
             if self.hide_non_free:
                 self.hide_non_free = False
-                webkit.execute_script('$("#nonFreeCheckBox").addClass("fa-square");')
-                webkit.execute_script('$("#nonFreeCheckBox").removeClass("fa-check-square");')
+                pref.set('hide_non_free', False)
             else:
                 self.hide_non_free = True
-                webkit.execute_script('$("#nonFreeCheckBox").removeClass("fa-square");')
-                webkit.execute_script('$("#nonFreeCheckBox").addClass("fa-check-square");')
+                pref.set('hide_non_free', True)
+            self.toggle_non_free()
 
         if filter_value == 'none':
             arg.print_verbose('Apps','Filter reset.')
@@ -2404,7 +2504,7 @@ class DynamicApps(object):
                         item_name = self.get_attribute_for_app(item_id, 'name')
                         item_img = self.get_attribute_for_app(item_id, 'img')
                         item_reason = get_reason_string(self.news[version]['fix'][item_id])
-                        news_buffer = news_buffer + '<li><img src="img/applications/' + item_id + '.png" width="16px" height="16px"/> ' + item_name + '<span class="news-reason">-- ' + item_reason + '</span></li>'
+                        news_buffer = news_buffer + '<li><img src="img/applications/' + item_img + '.png" width="16px" height="16px"/> ' + item_name + '<span class="news-reason">-- ' + item_reason + '</span></li>'
                     except Exception as e:
                         print('[Apps] Exception processing news: ' + item_id + ' (' + str(e) + ')')
                 news_buffer = news_buffer + '</ul></div>'
@@ -2436,37 +2536,77 @@ class DynamicApps(object):
         app.update_page('#search-total', 'hide')
         # Do not allow blank searches.
         if terms == '':
-            app.update_page('#search-results', 'html', _("Please enter a keyword to begin."))
+            app.update_page('#search-results', 'fadeIn')
+            app.update_page('#search-results', 'html', '<div class="alert alert-danger"><h5>' + _("Please enter a keyword to begin.") + '</h5></div>')
             return
+
+        # Do not search if less than 3 characters
+        if len(terms) < 3:
+            app.update_page('#search-results', 'fadeIn')
+            app.update_page('#search-results', 'html', '<div class="alert alert-danger"><h5>' + _("Please enter at least 3 characters.") + '</h5></div>')
+            return
+
         # Start Searching!
         arg.print_verbose('Search', 'Searching for: ' + terms)
         app.update_page('#navigation-sub-title', 'html', _("Search") + ': ' + terms)
+        terms.lower()
         app.update_page('#search-results', 'hide')
         app.update_page('#search-results', 'html', ' ')
         total_results = 0
+        hidden_results = 0
         for category in self.all_categories:
-            # Search this category for any matches
-            category_items = list(self.index[category].keys())
-            category_items.sort()
+            app_id = list(self.index[category].keys())
+            app_id.sort()
 
-            # Was there any matches? List them!
-            for word in terms.split(' '):
-                regex = re.compile(".*(" + word + ").*", re.IGNORECASE)
-                results = [m.group(0) for l in category_items for m in [regex.search(l)] if m]
+            # Gather sources to search for each app in this category
+            # Also search case insensitive
+            for program_id in app_id:
+                name = self.index[category][program_id]['name'].lower()
+                desc = self.index[category][program_id]['description']
+                desc = ' '.join(desc).lower()
+                alto = str(self.index[category][program_id]['alternate-to']).lower()
 
-            for program_id in results:
-                self.set_app_info(category, program_id)
-                return_code = self.append_app_listing(category, program_id, '#search-results')
-                if not return_code == 1 or return_code == 2:
-                    dynamicapps.update_app_status(app.webkit, program_id)
-                    total_results = total_results + 1
+                # Any matches? List them!
+                app_matched = False
+                matched_results = []
+                for term in terms.split(' '):
+                    matched_results.append(program_id.find(term))
+                    matched_results.append(name.find(term))
+                    matched_results.append(desc.find(term))
+                    matched_results.append(alto.find(term))
+                    for status in matched_results:
+                        if status != -1:
+                            app_matched = True
+                            break
+
+                if app_matched:
+                    # Skip this if user doesn't want non-free software.
+                    oss = self.index[category][program_id]['open-source']
+                    if self.hide_non_free and not oss:
+                        hidden_results = hidden_results + 1
+                        continue
+
+                    # Display result to user, if it works on the system (return code 0)
+                    self.set_app_info(category, program_id)
+                    return_code = self.append_app_listing(category, program_id, '#search-results')
+                    if not return_code == 1 or return_code == 2:
+                        dynamicapps.update_app_status(self, program_id)
+                        total_results = total_results + 1
 
         if total_results == 0:
             app.update_page('#search-empty', 'fadeIn')
+            if hidden_results > 0:
+                app.update_page('#search-retry-nonfree', 'show')
+            else:
+                app.update_page('#search-retry-nonfree', 'hide')
         else:
             app.update_page('#search-results', 'fadeIn')
             app.update_page('#search-total', 'fadeIn')
-            app.update_page('#search-total', 'html', '<b>' + _("Matched:") + '</b> ' + str(total_results) + ' ' + _("applications."))
+            app.update_page('#search-total', 'html', '<b>' + str(total_results) + ' ' + _("applications found.") + '</b>')
+
+            # If non-free filtering is enabled, inform of how many apps were hidden.
+            if self.hide_non_free and hidden_results > 0:
+                app.update_page('#search-total', 'append', '&nbsp;<a onclick="searchAgainNonFree()">' + str(hidden_results) + ' ' + _(" proprietary applications are hidden.") + '</a>')
 
 
 class ScreenshotWindow(Gtk.Window):
@@ -2499,6 +2639,70 @@ class ScreenshotWindow(Gtk.Window):
 
     def destroy_window(self, widget, dummy=None):
         self.destroy()
+
+
+class Preferences(object):
+    def __init__(self):
+        self.folder = os.path.join(os.path.expanduser('~'), '.config/ubuntu-mate/welcome')
+        self.config = os.path.join(self.folder, 'preferences.json')
+        self.data = None
+        self.load_prefs()
+
+    def reset_prefs(self):
+        if os.path.exists(self.config):
+            os.remove(self.config)
+        stream = open(self.config, "w")
+        stream.write(json.dumps({}))
+        stream.close()
+        arg.print_verbose('Config', 'Preferences reset.')
+
+    def load_prefs(self):
+        # Create configuration data if non-existent.
+        if not os.path.exists(self.folder):
+            arg.print_verbose('Config', 'Config folder non-existent. Creating...')
+            os.makedirs(self.folder)
+
+        if not os.path.exists(self.config) or os.path.getsize(self.config) < 2:
+            arg.print_verbose('Config', 'Preferences non-existent. Creating...')
+            self.reset_prefs()
+
+        load_error = False
+        with open(self.config) as stream:
+            try:
+                self.data = json.load(stream)
+            except Exception as e:
+                load_error = True
+                arg.print_verbose('Config', 'Failed to load preferences. Reason: ' + str(e))
+
+        if load_error:
+            print('[Config]', 'Errors occured while loading.')
+            self.reset_prefs()
+        else:
+            arg.print_verbose('Config', 'Preferences loaded from file.')
+
+    def write_prefs(self):
+        stream = open(self.config, "w+")
+        stream.write(json.dumps(self.data))
+        stream.close()
+        arg.print_verbose('Config', 'Preferences written to file.')
+
+    def set(self, variable, data):
+        try:
+            arg.print_verbose('Config', 'Write "' + variable + '" => "' + str(data) + '"')
+            self.data[variable] = data
+        except:
+            print('[Config] Failed to write data! "' + variable + '" => "' + str(data) + '"')
+        self.write_prefs()
+
+    def get(self, variable, default):
+        try:
+            value = self.data[variable]
+            arg.print_verbose('Config', ' Read "' + variable + '" => "' + str(value) + '"')
+            return value
+        except:
+            arg.print_verbose('Config', ' Read "' + variable + '" => "' + str(default) + '" (default)')
+            self.set(variable, default)
+            return default
 
 
 class Arguments(object):
@@ -2630,6 +2834,8 @@ if __name__ == "__main__":
 
     # Application Initialization
     set_proc_title()
+    data_path = whereami()
+    pref = Preferences()
     systemstate = SystemState()
     app = WelcomeApp()
     dynamicapps = DynamicApps()
