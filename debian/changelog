@@ -1,3 +1,25 @@
+ubuntu-mate-welcome (16.10.0~xenial1.8) xenial; urgency=medium
+
+  [ Luke Horwell ]
+    + Welcome / General
+      - "Software Updates" changed to "Updates & Extras".
+      - Humanity Icons moved to applications folder.
+    + Boutique
+      - New icon. Installs system-wide. Updated desktop launcher.
+      - Update splash image for --software-only mode.
+      - Backport adaptive columns for applications.
+      - Backport preferences.
+      - Backport search improvements.
+      - Backport refined notifications.
+    + Bug Fixes
+      - Fix missing icons in news.
+      - Correct HP Printer checkmark in Getting Started.
+
+  [ Martin Wimpress ]
+    + Update translations.
+
+ -- Martin Wimpress <code@flexion.org>  Sun, 05 Jun 2016 16:59:40 +0100
+
 ubuntu-mate-welcome (16.10.0~xenial1.7) xenial; urgency=medium
 
   [ Luke Horwell ]
