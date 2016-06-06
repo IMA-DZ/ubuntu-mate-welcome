@@ -86,6 +86,7 @@ When you need to update translations do the following.
   ./welcome-po.py --update-pos
   ./edgar-allan create-all-pots
   ./edgar-allan translate-all
+  tx push -s
 
 ## Translators
 
