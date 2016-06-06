@@ -42,7 +42,7 @@ msgstr ""
 
 #: introduction.html50, 122
 msgid "and"
-msgstr ""
+msgstr "a"
 
 #: introduction.html:52
 msgid "Google's Chrome OS"
@@ -250,7 +250,7 @@ msgstr ""
 
 #: introduction.html:194
 msgid "or"
-msgstr ""
+msgstr "nebo"
 
 #: introduction.html:197
 msgid "it will feel very familiar."
@@ -266,7 +266,7 @@ msgstr ""
 
 #: introduction.html:211
 msgid "Open Source"
-msgstr ""
+msgstr "Open Source"
 
 #: introduction.html:218
 msgid ""

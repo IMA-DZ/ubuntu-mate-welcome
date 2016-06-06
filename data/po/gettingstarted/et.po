@@ -16,7 +16,7 @@ msgstr ""
 
 #: gettingstarted.html:18
 msgid "Getting Started"
-msgstr ""
+msgstr "Alustamine"
 
 #: gettingstarted.html:27
 msgid "Prerequisites"
@@ -52,7 +52,7 @@ msgstr ""
 
 #: gettingstarted.html37, 37, 384, 385, 395, 615, 616
 msgid "Drivers"
-msgstr ""
+msgstr "Draiverid"
 
 #: gettingstarted.html38, 38
 msgid "Language & Input"
@@ -677,7 +677,7 @@ msgstr ""
 
 #: gettingstarted.html358, 361
 msgid "Software Updater"
-msgstr ""
+msgstr "Tarkvara Uuendaja"
 
 #: gettingstarted.html361, 414, 590, 649, 674, 698, 729
 msgid "can be found later in"
@@ -706,7 +706,7 @@ msgstr ""
 
 #: gettingstarted.html:379
 msgid "Installing..."
-msgstr ""
+msgstr "Paigaldab..."
 
 #: gettingstarted.html:396
 msgid ""
@@ -740,7 +740,7 @@ msgstr ""
 
 #: gettingstarted.html424, 430, 438, 444
 msgid "Unknown"
-msgstr ""
+msgstr "Teadmata"
 
 #: gettingstarted.html428, 434
 msgid "Graphics Card Detected."
@@ -940,7 +940,7 @@ msgstr ""
 
 #: gettingstarted.html:522
 msgid "ask the community"
-msgstr ""
+msgstr "küsi kogukonnalt"
 
 #: gettingstarted.html:525
 msgid "Read more on troubleshooting wireless hardware."
@@ -992,7 +992,7 @@ msgstr ""
 
 #: gettingstarted.html561, 1255, 1272, 1288, 1304, 1320, 1336
 msgid "Install"
-msgstr ""
+msgstr "Paigalda"
 
 #: gettingstarted.html571, 572, 707, 708
 msgid "Language Input"
@@ -1744,7 +1744,7 @@ msgstr ""
 
 #: gettingstarted.html:1238
 msgid "Could not gather data."
-msgstr ""
+msgstr "Ei olnud võimalik koguda andmeid."
 
 #: gettingstarted.html:1250
 msgid "System Profiler and Benchmark"

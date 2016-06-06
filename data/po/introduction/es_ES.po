@@ -1,11 +1,12 @@
 # 
 # Translators:
+# Simeon Ivanov <smstiv@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Ubuntu MATE Welcome\n"
 "POT-Creation-Date: 2016-02-27 12:48+0100\n"
-"PO-Revision-Date: 2016-04-03 14:00+0000\n"
-"Last-Translator: Martin Wimpress <code@flexion.org>\n"
+"PO-Revision-Date: 2016-06-01 16:22+0000\n"
+"Last-Translator: Simeon Ivanov <smstiv@gmail.com>\n"
 "Language-Team: Spanish (Spain) (http://www.transifex.com/ubuntu-mate/ubuntu-mate-welcome/language/es_ES/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -289,7 +290,7 @@ msgid ""
 "into future versions. There is no guarantee that this will ever happen, but "
 "if you have made it better, then your changes just might be included in the "
 "next release of Ubuntu MATE."
-msgstr ""
+msgstr "Aunque encontrarás algunas distribuciones (variaciones) de Linux de pago, la gran mayoría son proporcionadas de forma gratuita, como Ubuntu MATE.  La distribución está disponible en una forma que permite que a cualquiera adquirir la de forma gratuita, sin ningún compromiso. Por ejemplo, la licencia da a cualquier miembro de la comunidad de usuarios la libertad de usar Linux para cualquier propósito, distribuir, modificar o incluso vender el sistema operativo. Si modificas y luego redistribuyes Linux con tus modificaciones, estás obligado por licencia a enviar tus modificaciones para una posible inclusión en futuras versiones. No hay garantía de que esto ocurra alguna vez, pero si lo has mejorado, entonces tus cambios simplemente serían incluidos en el siguiente lanzamiento de Ubuntu MATE."
 
 #: introduction.html:239
 msgid ""

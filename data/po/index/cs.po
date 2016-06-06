@@ -36,11 +36,11 @@ msgstr ""
 
 #: index.html:45
 msgid "Features"
-msgstr ""
+msgstr "Funkce"
 
 #: index.html:46
 msgid "Getting Started"
-msgstr ""
+msgstr "Začínáme"
 
 #: index.html:47
 msgid "Installation Help"
@@ -64,15 +64,15 @@ msgstr ""
 
 #: index.html:63
 msgid "Chat Room"
-msgstr ""
+msgstr "Chatovací místnost"
 
 #: index.html:64
 msgid "Software"
-msgstr ""
+msgstr "Software"
 
 #: index.html:65
 msgid "Install Now"
-msgstr ""
+msgstr "Nainstalovat nyní"
 
 #: index.html:72
 msgid "Raspberry Pi Information"

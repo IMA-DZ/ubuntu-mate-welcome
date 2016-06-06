@@ -1,14 +1,18 @@
 # 
 # Translators:
 # BRUNO DE CAMARGO B SILVA <brunocamarggo@gmail.com>, 2016
+# Halan Germano Bacca <halangermano@hotmail.com.br>, 2016
+# Jairton Tossani Fortuna <jairtontf@gmail.com>, 2016
 # Lucas Friederich <lucasalvarokedrines@gmail.com>, 2016
+# Matheus Gaboardi Tralli <matheusgtralli@live.com>, 2016
+# Paulo Franco <paulo@drox.com.br>, 2016
 # Rodrigo Piñero <rodrigo.pinero@yahoo.com.br>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Ubuntu MATE Welcome\n"
 "POT-Creation-Date: 2016-02-27 12:48+0100\n"
-"PO-Revision-Date: 2016-05-14 14:02+0000\n"
-"Last-Translator: Rodrigo Piñero <rodrigo.pinero@yahoo.com.br>\n"
+"PO-Revision-Date: 2016-06-04 20:38+0000\n"
+"Last-Translator: Halan Germano Bacca <halangermano@hotmail.com.br>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/ubuntu-mate/ubuntu-mate-welcome/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -185,11 +189,11 @@ msgstr "Existe um botão físico que pode ter acidentalmente desligado funcional
 
 #: software.html:99
 msgid "Is there a soft (keyboard) switch that toggles it off?"
-msgstr ""
+msgstr "Existe um interruptor macio (teclado) que possa desligar?"
 
 #: software.html:101
 msgid "You may need to hold the FN key while pressing the function key."
-msgstr ""
+msgstr "Talvez você precise segurar a tecla FN enquanto pressiona a tecla de função."
 
 #: software.html:102
 msgid "Here's an example:"
@@ -197,13 +201,13 @@ msgstr "Aqui está um exemplo"
 
 #: software.html:106
 msgid "Not working at all or experiencing sluggish connections?"
-msgstr ""
+msgstr "Nada funciona ou a conexão está lenta?"
 
 #: software.html:107
 msgid ""
 "Sorry to hear that. You will need a temporary wired connection to install "
 "working drivers."
-msgstr ""
+msgstr "Lamento ouvir isso. Você vai precisar de uma conexão com fio temporária para instalar os drivers corretos."
 
 #: software.html:109
 msgid "The"
@@ -215,13 +219,13 @@ msgstr "Drivers adicionais"
 
 #: software.html:109
 msgid "tab may have them available for your system."
-msgstr ""
+msgstr "guia pode ter eles disponíveis para o seu sistema"
 
 #: software.html:110
 msgid ""
 "Otherwise, you will need to manually install third party drivers for your "
 "hardware, or a download specific package containing the firmware. See"
-msgstr ""
+msgstr "Caso contrário, você precisará instalar manualmente drivers de terceiros para o seu hardware, ou um pacote específico contendo o firmware. Vejo"
 
 #: software.html:111
 msgid "Drivers"
@@ -229,7 +233,7 @@ msgstr "Drivers"
 
 #: software.html:111
 msgid "in the"
-msgstr ""
+msgstr "no"
 
 #: software.html:111
 msgid "Getting Started"
@@ -237,7 +241,7 @@ msgstr "Começando"
 
 #: software.html:112
 msgid "section for more details."
-msgstr ""
+msgstr "seção para obter mais detalhes."
 
 #: software.html:113
 msgid "Feel free to"
@@ -245,7 +249,7 @@ msgstr "Sinta-se livre para"
 
 #: software.html:113
 msgid "ask the community"
-msgstr ""
+msgstr "Perguente à comunidade"
 
 #: software.html:113
 msgid "if you need assistance."
@@ -261,11 +265,11 @@ msgstr "Sem filtro"
 
 #: software.html:134
 msgid "Handy utilities for your computing needs."
-msgstr ""
+msgstr "Utilitários práticos para as suas necessidades de computação."
 
 #: software.html:147
 msgid "For study and children."
-msgstr ""
+msgstr "Para estudantes e crianças "
 
 #: software.html:160
 msgid "A selection of 2D and 3D games for your enjoyment."
@@ -277,59 +281,59 @@ msgstr "Para a produção e edição de trabalhos artísticos."
 
 #: software.html:186
 msgid "For staying connected and enjoying the features of your own cloud."
-msgstr ""
+msgstr "Para continuar ligado e aproveitar as características de sua própria nuvem."
 
 #: software.html:199
 msgid "For more then just documents and spreadsheets."
-msgstr ""
+msgstr "Para mais do que apenas documentos e planilhas."
 
 #: software.html:212
 msgid "For the developers and system administrators out there."
-msgstr ""
+msgstr "Para os desenvolvedores e administradores de sistemas de fora."
 
 #: software.html:225
 msgid "Multimedia software for listening and production."
-msgstr ""
+msgstr "Programas de multimídia para ouvir e reproduzir."
 
 #: software.html:238
 msgid "Software that makes the most out of your system resources."
-msgstr ""
+msgstr "Programa que aproveita ao máximo recursos do seu sistema."
 
 #: software.html:248
 msgid "Software that makes your computer more accessible."
-msgstr ""
+msgstr "Programa que faz seu computador ser mais acessível."
 
 #: software.html:258
 msgid "One-click installations for serving the network."
-msgstr ""
+msgstr "Instalação com apenas um clique para servidor de rede."
 
 #: software.html:267
 msgid "Discover More Software"
-msgstr ""
+msgstr "Descubra mais programas"
 
 #: software.html:268
 msgid ""
 "Graphical interfaces to browse a wide selection of software available for "
 "your operating system."
-msgstr ""
+msgstr "Interface gráficas listando uma grande variedade de programas disponível para o seu sistema operacional."
 
 #: software.html:276
 msgid "Miscellaneous Fixes"
-msgstr ""
+msgstr "Diversas correções"
 
 #: software.html:277
 msgid ""
 "This section contains operations that can fix common problems should you "
 "encounter an error while upgrading or installing new software."
-msgstr ""
+msgstr "Essa seção contém operações que podem corrigir problemas comuns que você poderá deparar-se ao atualizar ou instalar um novo Software."
 
 #: software.html:284
 msgid "Outdated Package Lists?"
-msgstr ""
+msgstr "Listas de Pacotes Desatualizada?"
 
 #: software.html:285
 msgid "Your repository lists may be out of date, which can cause"
-msgstr ""
+msgstr "Sua lista de repositórios talvez esteja desatualizada, o que pode causar"
 
 #: software.html:285
 msgid "Not Found"
@@ -348,31 +352,31 @@ msgid ""
 "information when trying to install new or newer versions of software. This "
 "is particularly the case when Ubuntu MATE connects online for the first time"
 " after installation."
-msgstr ""
+msgstr "informação enquanto tentar instalar versões mais novas do software. Esse caso em particular acontece quando o Ubuntu MATE conecta-se à internet pela primeira vez após a instalação."
 
 #: software.html:289
 msgid "Update the repository lists:"
-msgstr ""
+msgstr "Atualiza as listas de repositórios: "
 
 #: software.html:293
 msgid "Update Sources List"
-msgstr ""
+msgstr "Atualiza Lista de Fontes"
 
 #: software.html:294
 msgid "Upgrade Installed Packages"
-msgstr ""
+msgstr "Atualizar pacotes instalados"
 
 #: software.html:298
 msgid "Broken Packages?"
-msgstr ""
+msgstr "Pacotes Quebrados"
 
 #: software.html:299
 msgid "When a previous installation or removal was interrupted"
-msgstr ""
+msgstr "Quando uma instalação ou remoção anterior foi interrompida"
 
 #: software.html:300
 msgid "(for instance, due to power failure or loss of Internet connection)"
-msgstr ""
+msgstr "(por exemplo, devido à falha de energia ou perda de conexão com a Internet)"
 
 #: software.html:301
 msgid ""
@@ -380,29 +384,29 @@ msgid ""
 "these broken packages. If necessary, you may need to also resolve "
 "dependencies and install any missing packages in order for the software to "
 "run properly."
-msgstr ""
+msgstr "mais programas não podem ser adicionados ou removidos sem a devida reconfiguração desses pacotes quebrados. Se necessário, você também precisará resolver as dependências e instalar quaisquer pacotes que faltam para que o software seja executado corretamente."
 
 #: software.html:307
 msgid "Configure packages that were unpacked but not configured:"
-msgstr ""
+msgstr "Configure os pacotes que foram descompactados mas ainda não foram configurados:"
 
 #: software.html:311
 msgid "Download and install broken dependencies:"
-msgstr ""
+msgstr "Baixar e instalar as dependências quebradas:"
 
 #: software.html:315
 msgid "Configure Interrupted Packages"
-msgstr ""
+msgstr "Configurar pacotes interrompidos"
 
 #: software.html:316
 msgid "Resolve Broken Packages"
-msgstr ""
+msgstr "Resolver pacotes quebrados"
 
 #: software.html:320
 msgid ""
 "In addition, listed below are terminal equivalent commands that otherwise "
 "appear in the"
-msgstr ""
+msgstr "Além disso, estão listados abaixo comandos de terminal equivalentes que, caso contrário, aparecem no"
 
 #: software.html:321
 msgid "Software Updater"
@@ -410,19 +414,19 @@ msgstr "Atualizador de Software"
 
 #: software.html:323
 msgid "Upgrade all packages that have a new version available:"
-msgstr ""
+msgstr "Atualize todos os pacotes que tem uma nova versão disponível:"
 
 #: software.html:327
 msgid "Upgrade to a new release of Ubuntu MATE:"
-msgstr ""
+msgstr "Atualize para uma nova versão do Ubuntu MATE:"
 
 #: software.html:341
 msgid "Filter by Software License"
-msgstr ""
+msgstr "Filtrar por Licença de Software"
 
 #: software.html:342
 msgid "Hide Proprietary Software"
-msgstr ""
+msgstr "Esconder Programas Proprietários"
 
 #: software.html:344
 msgid "Show Terminal Commands"
@@ -436,15 +440,15 @@ msgstr "Software proprietário "
 msgid ""
 "is owned by an individual or company. There may be restrictions on its usage"
 " (like a license agreement), and provides no access to the source code."
-msgstr ""
+msgstr "é de propriedade de um indivíduo ou empresa. Pode haver restrições sobre seu uso (como um contrato de licença), e não fornece acesso ao código-fonte."
 
 #: software.html:354
 msgid "Free and Open Source Software"
-msgstr ""
+msgstr "Software Livre e Código-Aberto"
 
 #: software.html:355
 msgid ""
 "grants the user the freedom to share, study and modify the software without "
 "restriction. For instance, the GPL is an example of a 'Free Software' "
 "license."
-msgstr ""
+msgstr "concede ao usuário a liberdade de compartilhar, estudar e modificar o software sem restrições. Por exemplo, o GPL é um exemplo de uma licença \"software livre\"."

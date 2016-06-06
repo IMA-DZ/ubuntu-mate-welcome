@@ -1,13 +1,14 @@
 # 
 # Translators:
+# Christian Wagner <wagnerschristian@gmail.com>, 2016
 # FortressBuilder <fellner.sebastian@gmail.com>, 2016
 # Stephen, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Ubuntu MATE Welcome\n"
 "POT-Creation-Date: 2016-02-27 12:48+0100\n"
-"PO-Revision-Date: 2016-05-05 20:10+0000\n"
-"Last-Translator: FortressBuilder <fellner.sebastian@gmail.com>\n"
+"PO-Revision-Date: 2016-05-27 19:36+0000\n"
+"Last-Translator: Christian Wagner <wagnerschristian@gmail.com>\n"
 "Language-Team: German (http://www.transifex.com/ubuntu-mate/ubuntu-mate-welcome/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -59,7 +60,7 @@ msgstr "Ubuntu MATE ist eine Distribution (Variation) von GNU/Linux. Ein zuverl�
 
 #: introduction.html:57
 msgid "Unlike other operating systems, Linux is a major one used:"
-msgstr "Im Gegensatz zu anderen Betriebssystemen ist Linux eines der führenden, das eingesetzt wird:"
+msgstr "Im Gegensatz zu Anderen ist Linux eines der führenden Betriebssysteme, das eingesetzt wird:"
 
 #: introduction.html:59
 msgid "on most of the world's fastest and most powerful supercomputers"
@@ -69,7 +70,7 @@ msgstr "auf den meisten der weltweit schnellsten und leistungsstärksten Superco
 msgid ""
 "on many of (if not most of) the computers that make up the backbone of "
 "Internet"
-msgstr "auf vielen (wenn auch nicht allen) Computern, die das Rückgrat des Internets bilden"
+msgstr "auf vielen (wenn nicht sogar den meisten) Computern, die das Rückgrat des Internets bilden"
 
 #: introduction.html:63
 msgid "and on corporate servers that require stability and reliability"
@@ -82,7 +83,7 @@ msgid ""
 "computers and prefer a traditional desktop metaphor. With modest hardware "
 "requirements, it is suitable for modern desktops and laptops, single board "
 "computers (such as the Raspberry Pi) and older hardware alike."
-msgstr "Ubuntu MATE ist ein stabiles, leicht zu bedienendes Betriebssystem mit einer konfigurierbaren Desktop-Umgebung. Es ist ideal für diejenigen, die das Beste aus ihren Computern wollen und eine herkömmliche Desktop-Metapher bevorzugen. Mit bescheidenen Hardware-Anforderungen, ist es geeignet für moderne Desktop-PCs und Laptops, Single-Board-Computer (wie der Raspberry Pi) sowie ältere Hardware."
+msgstr "Ubuntu MATE ist ein stabiles, leicht zu bedienendes Betriebssystem mit einer konfigurierbaren Desktop-Umgebung. Es ist ideal für diejenigen, die das Beste aus ihren Computern herausholen wollen und eine herkömmliche Desktop-Metapher bevorzugen. Mit bescheidenen Hardware-Anforderungen, ist es geeignet für moderne Desktop-PCs und Laptops, Single-Board-Computer (wie der Raspberry Pi) sowie ältere Hardware."
 
 #: introduction.html:76
 msgid ""
@@ -291,7 +292,7 @@ msgid ""
 "into future versions. There is no guarantee that this will ever happen, but "
 "if you have made it better, then your changes just might be included in the "
 "next release of Ubuntu MATE."
-msgstr "Obwohl einige Distributionen (Variationen) von Linux verkauft werden, ist die überwiegende Anzahl kostenlos erhältlich, genauso wie Ubuntu MATE. Die Distribution ist so lizenziert, dass jeder sie kostenlos weitergeben darf, ohne weitere Auflagen. Beispielsweise gibt die Lizenz jedem Mitglied der Gemeinschaft die Freiheit, Linux für jeden Zweck zu verwenden, und das Betriebssystem zu verteilen, zu modifizieren, weiter zu vertreiben oder sogar zu verkaufen.Wenn Sie Linux tatsächlich modifizieren und weiter verteilen sollten, müssen Sie aufgrund der Lizenz Ihre Modifikationen veröffentlichen, so dass sie eventuell in zukünftige Versionen eingearbeitet werden können. Es gibt keine Garantie, dass dies je passieren wird, aber wenn Sie das System verbessert haben, könnten Ihre Änderungen sogar in der nächsten Version von Ubuntu MATE enthalten sein."
+msgstr "Obwohl einige Distributionen (Variationen) von Linux verkauft werden, ist die überwiegende Anzahl kostenlos erhältlich, genauso wie Ubuntu MATE. Die Distribution ist so lizenziert, dass jeder sie kostenlos weitergeben darf, ohne weitere Auflagen. Beispielsweise gibt die Lizenz jedem Mitglied der Gemeinschaft die Freiheit, Linux für jeden Zweck zu verwenden, und das Betriebssystem zu verteilen, zu modifizieren, weiter zu vertreiben oder sogar zu verkaufen. Wenn Sie Linux tatsächlich modifizieren und weiter verteilen sollten, müssen Sie aufgrund der Lizenz Ihren modifizierten Quellcode offenlegen, so dass sie eventuell in zukünftige Versionen eingearbeitet werden können. Es gibt keine Garantie, dass dies je passieren wird, aber wenn Sie das System verbessert haben, könnten Ihre Änderungen sogar in der nächsten Version von Ubuntu MATE enthalten sein."
 
 #: introduction.html:239
 msgid ""
@@ -317,7 +318,7 @@ msgid ""
 "company. It is supported by Intel, Redhat, Linaro, Samsung, IBM, SUSE, Texas"
 " Instruments, Google, Canonical, Oracle, AMD, and Microsoft. Over 4,000 "
 "developers contributed to Linux over the last 15 years."
-msgstr "Im Gegensatz zu Windows und OS X wird Linux nicht nur von einem Unternehmen geschaffen und unterstützt. Es wird von Intel, Redhat, Linaro, Samsung, IBM, SUSE, Texas Instruments, Google, Canonical, Oracle, AMD und Microsoft unterstützt. Mehr als 4.000 Entwickler haben innerhalb der letzten 15 Jahre zu Linux beigetragen."
+msgstr "Im Gegensatz zu Windows und OS X wird Linux nicht nur von einem Unternehmen entwickelt. Es wird unter Anderem von Intel, Redhat, Linaro, Samsung, IBM, SUSE, Texas Instruments, Google, Canonical, Oracle, AMD und Microsoft betreut. Mehr als 4.000 Entwickler haben innerhalb der letzten 15 Jahre zu Linux beigetragen."
 
 #: introduction.html:256
 msgid ""
@@ -330,4 +331,4 @@ msgid ""
 "cheapest netbook, from the newest Chromebook to some very old machines "
 "designed for Windows, and from the most powerful Internet servers to the "
 "smallest smart thermostat."
-msgstr "Egal, ob Sie ein Heimanwender, Software- oder Anwendungsentwickler von Ubuntu MATE oder ein Mitarbeiter eines Unternehmens, das das Betriebssystem verwendet, sind: Sie sind ein Mitglied der Linux- und Open-Source-Gemeinden und profitieren von den Anstrengungen der Entwickler, die zu Ubuntu MATE und den verwandten Projekten Linux, MATE und Ubuntu beitragen. Mitglieder der Gemeinde setzen Linux auf fast jeder Hardware ein, vom schönsten Macbook zum billigsten Netbook, vom neuesten Chromebook zu einigen sehr alten für Windows designten Geräten, und von den stärksten Internet-Servern zu den kleinsten intelligenten Thermostaten."
+msgstr "Egal, ob Sie ein Heimanwender, Softwareentwickler von Ubuntu MATE oder ein Mitarbeiter eines Unternehmens, das das Betriebssystem verwendet, sind: Sie sind ein Mitglied der Linux- und Open-Source-Gemeinden und profitieren von den Anstrengungen der Entwickler, die zu Ubuntu MATE und den verwandten Projekten Linux, MATE und Ubuntu beitragen. Mitglieder der Gemeinde setzen Linux auf fast jeder Hardware ein, vom schönsten Macbook zum billigsten Netbook, vom neuesten Chromebook zu einigen sehr alten für Windows designten Geräten, und von den stärksten Internet-Servern zu den kleinsten intelligenten Thermostaten."

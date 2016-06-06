@@ -2,6 +2,7 @@
 # Translators:
 # BRUNO DE CAMARGO B SILVA <brunocamarggo@gmail.com>, 2016
 # Danilo Silva, 2016
+# Guilherme Galván <guilherme_galvan@hotmail.com>, 2016
 # Lucas Friederich <lucasalvarokedrines@gmail.com>, 2016
 # Lucas Friederich <lucasalvarokedrines@gmail.com>, 2016
 # Nitai Charan <nitaicharan@gmail.com>, 2016
@@ -10,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ubuntu MATE Welcome\n"
 "POT-Creation-Date: 2016-02-27 12:48+0100\n"
-"PO-Revision-Date: 2016-05-15 15:55+0000\n"
-"Last-Translator: Nitai Charan <nitaicharan@gmail.com>\n"
+"PO-Revision-Date: 2016-05-21 23:56+0000\n"
+"Last-Translator: Guilherme Galván <guilherme_galvan@hotmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/ubuntu-mate/ubuntu-mate-welcome/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -263,7 +264,7 @@ msgid ""
 "MATE. It doesn't matter if you like flight simulators, motor racing, first "
 "person shooters, jump and run or card games, you'll find something to keep "
 "you entertained."
-msgstr ""
+msgstr "Enquanto a Steam é o principal passo para jogar no Linux, há também vários títulos Open Source de alta qualidade e divertidos, disponíveis para o Ubuntu Mate. Não importa se você gosta de simuladores de voo, corrida, FPS, aventura ou cartas, você encontrará algo que o deixará entretido."
 
 #: features.html:265
 msgid "Accessibility"

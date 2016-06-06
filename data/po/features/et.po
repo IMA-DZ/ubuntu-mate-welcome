@@ -215,7 +215,7 @@ msgstr ""
 
 #: features.html:230
 msgid "Software"
-msgstr ""
+msgstr "Tarkvara"
 
 #: features.html:230
 msgid ""
@@ -231,7 +231,7 @@ msgstr ""
 
 #: features.html:239
 msgid "Games"
-msgstr ""
+msgstr "Mängud"
 
 #: features.html:245
 msgid ""

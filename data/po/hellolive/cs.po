@@ -16,7 +16,7 @@ msgstr ""
 
 #: hellolive.html14, 27
 msgid "Welcome"
-msgstr ""
+msgstr "Vítejte"
 
 #: hellolive.html:23
 msgid "Hello."

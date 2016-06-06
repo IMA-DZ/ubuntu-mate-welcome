@@ -16,7 +16,7 @@ msgstr ""
 
 #: software.html:17
 msgid "Software"
-msgstr ""
+msgstr "Software"
 
 #: software.html:17
 msgid "Boutique"
@@ -32,7 +32,7 @@ msgstr ""
 
 #: software.html26, 26, 156
 msgid "Games"
-msgstr ""
+msgstr "Hry"
 
 #: software.html27, 27, 169
 msgid "Graphics"
@@ -64,7 +64,7 @@ msgstr ""
 
 #: software.html34, 34, 257
 msgid "Servers"
-msgstr ""
+msgstr "Servery"
 
 #: software.html35, 35
 msgid "More Software"
@@ -76,7 +76,7 @@ msgstr ""
 
 #: software.html:45
 msgid "Software Boutique"
-msgstr ""
+msgstr "Software Boutique"
 
 #: software.html:46
 msgid ""
@@ -222,7 +222,7 @@ msgstr ""
 
 #: software.html:111
 msgid "Drivers"
-msgstr ""
+msgstr "Ovladače"
 
 #: software.html:111
 msgid "in the"
@@ -230,7 +230,7 @@ msgstr ""
 
 #: software.html:111
 msgid "Getting Started"
-msgstr ""
+msgstr "Začínáme"
 
 #: software.html:112
 msgid "section for more details."
@@ -250,7 +250,7 @@ msgstr ""
 
 #: software.html:118
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: software.html132, 145, 158, 171, 184, 197, 210, 223, 236
 msgid "No Filter"

@@ -1,11 +1,12 @@
 # 
 # Translators:
+# Petr Šimáček <petr.simacek@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Ubuntu MATE Welcome\n"
 "POT-Creation-Date: 2016-02-27 12:48+0100\n"
-"PO-Revision-Date: 2016-03-19 13:28+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2016-06-06 15:16+0000\n"
+"Last-Translator: Petr Šimáček <petr.simacek@gmail.com>\n"
 "Language-Team: Czech (http://www.transifex.com/ubuntu-mate/ubuntu-mate-welcome/language/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -16,176 +17,176 @@ msgstr ""
 
 #: gettingstarted.html:18
 msgid "Getting Started"
-msgstr ""
+msgstr "Začínáme"
 
 #: gettingstarted.html:27
 msgid "Prerequisites"
-msgstr ""
+msgstr "Požadavky"
 
 #: gettingstarted.html28, 28, 159, 160
 msgid "System Requirements"
-msgstr ""
+msgstr "Systémové požadavky"
 
 #: gettingstarted.html29, 90, 91, 337
 msgid "Installation Preparations"
-msgstr ""
+msgstr "Přípravy instalace"
 
 #: gettingstarted.html:29
 msgid "Installation Preparation"
-msgstr ""
+msgstr "Příprava instalace"
 
 #: gettingstarted.html30, 30, 161, 162, 172
 msgid "Dual Booting"
-msgstr ""
+msgstr "Duální bootování"
 
 #: gettingstarted.html:31
 msgid "Install Now"
-msgstr ""
+msgstr "Nainstalovat nyní"
 
 #: gettingstarted.html:35
 msgid "Post-Installation"
-msgstr ""
+msgstr "Po instalaci"
 
 #: gettingstarted.html36, 36, 348, 569, 570
 msgid "Software Updates"
-msgstr ""
+msgstr "Aktualizace softwaru"
 
 #: gettingstarted.html37, 37, 384, 385, 395, 615, 616
 msgid "Drivers"
-msgstr ""
+msgstr "Ovladače"
 
 #: gettingstarted.html38, 38
 msgid "Language & Input"
-msgstr ""
+msgstr "Jazyk a vstup"
 
 #: gettingstarted.html39, 39, 617, 618, 756, 757
 msgid "Optional Tasks"
-msgstr ""
+msgstr "Volitelné úkoly"
 
 #: gettingstarted.html:41
 msgid "Familiarity"
-msgstr ""
+msgstr "Obeznámenost"
 
 #: gettingstarted.html42, 42, 709, 710, 1042, 1043
 msgid "Customization"
-msgstr ""
+msgstr "Přizpůsobení"
 
 #: gettingstarted.html43, 43, 758, 759, 769
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Klávesové zkratky"
 
 #: gettingstarted.html:46
 msgid "Troubleshooting"
-msgstr ""
+msgstr "Řešení problémů"
 
 #: gettingstarted.html47, 47, 85
 msgid "System Specifications"
-msgstr ""
+msgstr "Specifikace systému"
 
 #: gettingstarted.html:55
 msgid "Please choose a topic to get started."
-msgstr ""
+msgstr "Na začátku si vyberte téma."
 
 #: gettingstarted.html:63
 msgid "Modest System Requirements"
-msgstr ""
+msgstr "Skromné systémové požadavky"
 
 #: gettingstarted.html:64
 msgid ""
 "Ubuntu MATE works well on both high-end to slow computers, optimized to be "
 "functional, while light on system resources."
-msgstr ""
+msgstr "Ubuntu MATE funguje dobře na high-end i pomalých počítačích, je optimalizované, aby bylo funkční a nemělo vysoké nároky na systémové prostředky."
 
 #: gettingstarted.html:67
 msgid "Minimum"
-msgstr ""
+msgstr "Minimum"
 
 #: gettingstarted.html:69
 msgid "Pentium III 750 megahertz (MHz)"
-msgstr ""
+msgstr "Pentium III 750 megahertz (MHz)"
 
 #: gettingstarted.html:70
 msgid "512 megabytes (MB) of RAM"
-msgstr ""
+msgstr "512 megabajtů (MB) RAM"
 
 #: gettingstarted.html:71
 msgid "8 gigabytes (GB) of disk space"
-msgstr ""
+msgstr "8 gigabajtů (GB) volného místa na disku"
 
 #: gettingstarted.html:74
 msgid "Recommended"
-msgstr ""
+msgstr "Doporučeno"
 
 #: gettingstarted.html:76
 msgid "Core 2 Duo 1.6 gigahertz (GHz)"
-msgstr ""
+msgstr "Core 2 Duo 1.6 gigahertz (GHz)"
 
 #: gettingstarted.html:77
 msgid "2 gigabytes (GB) of RAM"
-msgstr ""
+msgstr "2 gigabajtů (GB) RAM"
 
 #: gettingstarted.html:78
 msgid "16 gigabytes (GB) of disk space"
-msgstr ""
+msgstr "16 gigabajtů (GB) volného místa na disku"
 
 #: gettingstarted.html:81
 msgid ""
 "The operating system will run much more efficiently if your computer meets "
 "or surpasses the recommended requirements."
-msgstr ""
+msgstr "Operační systém bude fungovat mnohem efektivněji, pokud váš počítač splňuje nebo dokonce převyšuje doporučené požadavky."
 
 #: gettingstarted.html85, 1053
 msgid "What's inside my computer?"
-msgstr ""
+msgstr "Co je uvnitř mého počítače?"
 
 #: gettingstarted.html91, 162, 385, 572, 618, 710, 759
 msgid "Next:"
-msgstr ""
+msgstr "Další:"
 
 #: gettingstarted.html:101
 msgid "Preparing to Install"
-msgstr ""
+msgstr "Příprava instalace"
 
 #: gettingstarted.html:102
 msgid ""
 "Ubuntu MATE is relatively simple to set up, whether you're looking to "
 "replace your existing operating system or install Ubuntu MATE alongside an "
 "existing one - such as"
-msgstr ""
+msgstr "Ubuntu MATE má relativně jednoduché nastavení, ať už hledáte jak nahradit stávající operační systém nebo instalovat Ubuntu MATE vedle již existujícího - jako je"
 
 #: gettingstarted.html:105
 msgid "Microsoft Windows or another"
-msgstr ""
+msgstr "Microsoft Windows nebo jiná"
 
 #: gettingstarted.html:106
 msgid "GNU/Linux distribution."
-msgstr ""
+msgstr "distribuce GNU/Linuxu."
 
 #: gettingstarted.html:108
 msgid "For the best results:"
-msgstr ""
+msgstr "Pro nejlepší výsledky:"
 
 #: gettingstarted.html110, 185
 msgid "Back up"
-msgstr ""
+msgstr "Zálohovat"
 
 #: gettingstarted.html:110
 msgid "any important data to another storage device."
-msgstr ""
+msgstr "všechna důležitá data na jiném paměťovém zařízení."
 
 #: gettingstarted.html:111
 msgid ""
 "Connect to the Internet to install all available updates during "
 "installation."
-msgstr ""
+msgstr "Díky připojení k Internetu se během instalace nainstalují všechny dostupné aktualizace."
 
 #: gettingstarted.html:112
 msgid "Stay connected to the Internet to install all available updates."
-msgstr ""
+msgstr "Díky připojení k internetu se nainstalují všechny dostupné aktualizace."
 
 #: gettingstarted.html:113
 msgid "Plug in your device to the mains if it is running on battery power."
-msgstr ""
+msgstr "Připojte zařízení k síti, pokud je počítač napájen z baterie."
 
 #: gettingstarted.html:118
 msgid ""
@@ -194,49 +195,49 @@ msgid ""
 "of your peripherals are working as intended before committing to installing "
 "it on your machine. Once you are ready, double click the installation icon "
 "from the desktop."
-msgstr ""
+msgstr "Live relace, kterou právě používáte, je vynikající příležitostí vyzkoušet si Ubuntu MATE bez změn ve vašem počítači. Můžete například otestovat, jak pracují všechna vaše připojená zařízení. Jakmile se rozhodnete pro instalaci, poklepejte na ikonu na ploše."
 
 #: gettingstarted.html:125
 msgid "Modern UEFI-based computers"
-msgstr ""
+msgstr "Moderní počítače na bázi UEFI"
 
 #: gettingstarted.html:126
 msgid ""
 "If you have a modern PC that uses the Unifed Extended Firmware Interface "
 "(UEFI), you may need to disable"
-msgstr ""
+msgstr "Pokud máte moderní počítač, který využívá Unified Extended Firmware Interface (UEFI), může být nutné zakázat"
 
 #: gettingstarted.html:127
 msgid "Secure Boot"
-msgstr ""
+msgstr "Secure Boot"
 
 #: gettingstarted.html:127
 msgid "(or enable the"
-msgstr ""
+msgstr "(a nebo povolit"
 
 #: gettingstarted.html:127
 msgid "Unlock Bootloader"
-msgstr ""
+msgstr "Odemknout zavaděč"
 
 #: gettingstarted.html:128
 msgid ""
 "option) prior to installation, particularly if an operating system was pre-"
 "installed."
-msgstr ""
+msgstr "volba) před instalací, zejména pokud byl předinstalován operační systém."
 
 #: gettingstarted.html:130
 msgid "If you are using a legacy BIOS machine, you do not need to do this."
-msgstr ""
+msgstr "Pokud používáte starší počítač s BIOSem, toto dělat nemusíte."
 
 #: gettingstarted.html:133
 msgid ""
 "Especially when dual booting, it is important that you boot your system in "
 "the correct mode and use the"
-msgstr ""
+msgstr "Zvlášť při duálním bootování je důležité restartovat systém ve správném režimu a použít "
 
 #: gettingstarted.html:134
 msgid "64-bit image"
-msgstr ""
+msgstr "64-bit obraz"
 
 #: gettingstarted.html:134
 msgid ""
@@ -252,11 +253,11 @@ msgstr ""
 
 #: gettingstarted.html:140
 msgid "Do not worry,"
-msgstr ""
+msgstr "Nestrachujte se,"
 
 #: gettingstarted.html:140
 msgid "your data is not lost or corrupt!"
-msgstr ""
+msgstr "vaše data nejsou ztracena nebo poškozena!"
 
 #: gettingstarted.html:144
 msgid "Your system is currently running in"
@@ -268,7 +269,7 @@ msgstr ""
 
 #: gettingstarted.html:149
 msgid "Swap"
-msgstr ""
+msgstr "Swap"
 
 #: gettingstarted.html:150
 msgid ""
@@ -287,7 +288,7 @@ msgstr ""
 
 #: gettingstarted.html160, 338, 570, 616, 708, 757, 1043
 msgid "Previous:"
-msgstr ""
+msgstr "Dřívější:"
 
 #: gettingstarted.html:173
 msgid ""
@@ -306,39 +307,39 @@ msgstr ""
 
 #: gettingstarted.html:184
 msgid "There is enough free space. 10 GB minimum is recommended."
-msgstr ""
+msgstr "Není zde dostatek místa. 10 GB je doporučené minimum."
 
 #: gettingstarted.html:185
 msgid "important data to another drive."
-msgstr ""
+msgstr "důležitá data na jiný disk."
 
 #: gettingstarted.html:186
 msgid "Defragment the hard drive."
-msgstr ""
+msgstr "Defragmentace pevného disku."
 
 #: gettingstarted.html:187
 msgid "Ensure Windows has been cleanly shut down (not hibernated)."
-msgstr ""
+msgstr "Ujistěte se, že Windows byla vypnuta (ne hibernována)."
 
 #: gettingstarted.html:191
 msgid "Which approach would you prefer?"
-msgstr ""
+msgstr "Jakému přístupu byste dali přednost?"
 
 #: gettingstarted.html193, 277
 msgid "Simple"
-msgstr ""
+msgstr "Jednoduchý"
 
 #: gettingstarted.html194, 277
 msgid "Advanced"
-msgstr ""
+msgstr "Pokročilý"
 
 #: gettingstarted.html:195
 msgid "Safest"
-msgstr ""
+msgstr "Bezpečný"
 
 #: gettingstarted.html:200
 msgid "The simplest method is to use the installer."
-msgstr ""
+msgstr "Nejjednodušší metodou je použít instalátor."
 
 #: gettingstarted.html:202
 msgid ""
@@ -452,56 +453,56 @@ msgstr ""
 
 #: gettingstarted.html:255
 msgid "The base for Ubuntu MATE"
-msgstr ""
+msgstr "Základ pro Ubuntu MATE"
 
 #: gettingstarted.html:256
 msgid "Bootloader and kernels"
-msgstr ""
+msgstr "Zavaděč a jádra"
 
 #: gettingstarted.html:257
 msgid "Your personal files and folders"
-msgstr ""
+msgstr "Vaše osobní soubory a složky"
 
 #: gettingstarted.html:258
 msgid "Temporary files"
-msgstr ""
+msgstr "Dočasné soubory"
 
 #: gettingstarted.html:259
 msgid "Contains most of the applications"
-msgstr ""
+msgstr "Obsahuje většinu aplikací"
 
 #: gettingstarted.html:259
 msgid "(binaries, documentation, libraries, etc)"
-msgstr ""
+msgstr "(binární soubory, dokumentace, knihovny, atd)"
 
 #: gettingstarted.html:260
 msgid "Variable data"
-msgstr ""
+msgstr "Proměnlivá data"
 
 #: gettingstarted.html:260
 msgid "(such as system logs)"
-msgstr ""
+msgstr "(Jako například systémové logy)"
 
 #: gettingstarted.html:261
 msgid "Data for System Services"
-msgstr ""
+msgstr "Údaje pro systémové služby"
 
 #: gettingstarted.html:261
 msgid "(typically used for server configurations)"
-msgstr ""
+msgstr "(typicky používané pro konfigurace serveru)"
 
 #: gettingstarted.html:262
 msgid "Additional software unmanaged by the package manager"
-msgstr ""
+msgstr "Dodatečný software neřízený pomocí správce balíčků"
 
 #: gettingstarted.html:263
 msgid "such as"
-msgstr ""
+msgstr "jako například"
 
 #: gettingstarted.html:265
 msgid ""
 "Creating separate partitions for all above mount points is not necessary."
-msgstr ""
+msgstr "Vytvoření samostatných oddílů pro všechny výše přípojené body není nutné."
 
 #: gettingstarted.html:266
 msgid "The commonly partitioned directories being"
@@ -509,47 +510,47 @@ msgstr ""
 
 #: gettingstarted.html:267
 msgid "and"
-msgstr ""
+msgstr "a"
 
 #: gettingstarted.html:267
 msgid "These mount points can also be set across different"
-msgstr ""
+msgstr "Tyto přípojené body lze nastavit také v rámci různých"
 
 #: gettingstarted.html:268
 msgid "physical disks, for instance, if you'd like the OS"
-msgstr ""
+msgstr "fyzických disků, například pokud byste chtěli OS"
 
 #: gettingstarted.html:268
 msgid "on an SSD,"
-msgstr ""
+msgstr "na SSD"
 
 #: gettingstarted.html:269
 msgid "but your personal files"
-msgstr ""
+msgstr "ale vaše osobní soubory"
 
 #: gettingstarted.html:269
 msgid "on a mechanical hard drive."
-msgstr ""
+msgstr "na mechanický hard disk."
 
 #: gettingstarted.html:273
 msgid "Shrink your system disk within Windows."
-msgstr ""
+msgstr "Zmenšit systémový disk ve Windows."
 
 #: gettingstarted.html:275
 msgid "Applies to Windows Vista and later."
-msgstr ""
+msgstr "Platí pro Windows Vista a vyšší."
 
 #: gettingstarted.html:276
 msgid "If you are using Windows XP or earlier, you will need to use the"
-msgstr ""
+msgstr "Pokud používáte Windows XP nebo starší, budete muset použít"
 
 #: gettingstarted.html:277
 msgid "or"
-msgstr ""
+msgstr "nebo"
 
 #: gettingstarted.html:277
 msgid "method to shrink your disk."
-msgstr ""
+msgstr "způsob, jak zmenšit váš disk."
 
 #: gettingstarted.html:280
 msgid ""
@@ -560,27 +561,27 @@ msgstr ""
 
 #: gettingstarted.html284, 560, 1254, 1271, 1287, 1303, 1319, 1335
 msgid "Open"
-msgstr ""
+msgstr "Otevřít"
 
 #: gettingstarted.html:284
 msgid "Disk Management"
-msgstr ""
+msgstr "Správa disků"
 
 #: gettingstarted.html:284
 msgid "from the start menu."
-msgstr ""
+msgstr "ze startovacího menu."
 
 #: gettingstarted.html:289
 msgid "Right click your desired drive and choose"
-msgstr ""
+msgstr "Klikněte pravým tlačítkem myši na požadovanou jednotku a zvolte"
 
 #: gettingstarted.html:289
 msgid "Shrink Partition"
-msgstr ""
+msgstr "zmenšení oddílu"
 
 #: gettingstarted.html:289
 msgid "from the context menu."
-msgstr ""
+msgstr "z kontextového menu."
 
 #: gettingstarted.html:294
 msgid "Enter the amount to shrink your system partition by."
@@ -592,7 +593,7 @@ msgstr ""
 
 #: gettingstarted.html:305
 msgid "Further Reading"
-msgstr ""
+msgstr "Další čtení"
 
 #: gettingstarted.html:306
 msgid ""
@@ -706,7 +707,7 @@ msgstr ""
 
 #: gettingstarted.html:379
 msgid "Installing..."
-msgstr ""
+msgstr "Instaluje se..."
 
 #: gettingstarted.html:396
 msgid ""
@@ -740,7 +741,7 @@ msgstr ""
 
 #: gettingstarted.html424, 430, 438, 444
 msgid "Unknown"
-msgstr ""
+msgstr "Neznámý"
 
 #: gettingstarted.html428, 434
 msgid "Graphics Card Detected."
@@ -992,7 +993,7 @@ msgstr ""
 
 #: gettingstarted.html561, 1255, 1272, 1288, 1304, 1320, 1336
 msgid "Install"
-msgstr ""
+msgstr "Instalovat"
 
 #: gettingstarted.html571, 572, 707, 708
 msgid "Language Input"
@@ -1744,7 +1745,7 @@ msgstr ""
 
 #: gettingstarted.html:1238
 msgid "Could not gather data."
-msgstr ""
+msgstr "Nemohla se shromažďovat data."
 
 #: gettingstarted.html:1250
 msgid "System Profiler and Benchmark"

@@ -148,7 +148,7 @@ msgstr ""
 
 #: rpi.html100, 109
 msgid "Software Updater"
-msgstr ""
+msgstr "Tarkvara Uuendaja"
 
 #: rpi.html:100
 msgid "utility for your installed software."

@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ubuntu MATE Welcome\n"
 "POT-Creation-Date: 2016-02-27 12:48+0100\n"
-"PO-Revision-Date: 2016-05-15 15:32+0000\n"
+"PO-Revision-Date: 2016-05-25 08:50+0000\n"
 "Last-Translator: Marco <marco.sting@gmail.com>\n"
 "Language-Team: Italian (Italy) (http://www.transifex.com/ubuntu-mate/ubuntu-mate-welcome/language/it_IT/)\n"
 "MIME-Version: 1.0\n"
@@ -62,17 +62,17 @@ msgstr "A differenza di altri sistemi operativi, Linux è uno dei più usati:"
 
 #: introduction.html:59
 msgid "on most of the world's fastest and most powerful supercomputers"
-msgstr "nella maggior parte dei più potenti e veloci supercomputer al mondo"
+msgstr "nella maggior parte dei più potenti e veloci supercomputer al mondo;"
 
 #: introduction.html:61
 msgid ""
 "on many of (if not most of) the computers that make up the backbone of "
 "Internet"
-msgstr "in molti (se non nella maggioranza) dei computer che costituiscono la spina dorsale di Internet"
+msgstr "in molti (se non nella maggioranza) dei computer che costituiscono la spina dorsale di Internet;"
 
 #: introduction.html:63
 msgid "and on corporate servers that require stability and reliability"
-msgstr "e nei server aziendali che richiedono stabilità ed affidabilità"
+msgstr "e nei server aziendali che richiedono stabilità ed affidabilità."
 
 #: introduction.html:68
 msgid ""
@@ -81,7 +81,7 @@ msgid ""
 "computers and prefer a traditional desktop metaphor. With modest hardware "
 "requirements, it is suitable for modern desktops and laptops, single board "
 "computers (such as the Raspberry Pi) and older hardware alike."
-msgstr "Ubuntu MATE è un sistema operativo stabile e di facile utilizzo, con un ambiente desktop configurabile. Si tratta dell'ideale per coloro che vogliono il massimo dai loro computer e preferiscono una tradizionale metafora della scrivania. Con requisiti hardware modesti, è adatto ai moderni sistemi desktop e laptop, ai single board computer (come il Raspberry Pi), così come agli hardware più datati."
+msgstr "Ubuntu MATE è un sistema operativo stabile e di facile utilizzo, con un ambiente desktop configurabile. Si tratta dell'ideale per coloro che vogliono il massimo dai loro computer e preferiscono una metafora tradizionale della scrivania. Con requisiti hardware modesti, è adatto ai moderni sistemi desktop e laptop, ai single board computer (come il Raspberry Pi), così come agli hardware più datati."
 
 #: introduction.html:76
 msgid ""
@@ -108,47 +108,47 @@ msgstr "Ubuntu MATE si pone una serie di obiettivi e linee guida:"
 
 #: introduction.html:93
 msgid "Accessible to all, regardless of language and physical ability."
-msgstr "essere accessibile a tutti, indipendentemente dalla lingua o dalle capacità fisiche"
+msgstr "essere accessibile a tutti, indipendentemente dalla lingua o dalle capacità fisiche;"
 
 #: introduction.html:94
 msgid "Increase both Ubuntu and MATE Desktop user adoption."
-msgstr "aumentare l'utilizzo sia di Ubuntu che di MATE Desktop tra gli utenti"
+msgstr "aumentare l'utilizzo sia di Ubuntu che di MATE Desktop tra gli utenti;"
 
 #: introduction.html:95
 msgid ""
 "Ubuntu alternative for computers that aren't powerful enough to run a "
 "composited desktop."
-msgstr "essere una alternativa ad Ubuntu per i computer non sufficientemente potenti da eseguire un desktop composito"
+msgstr "essere una alternativa ad Ubuntu per i computer non sufficientemente potenti da eseguire un desktop composito;"
 
 #: introduction.html:96
 msgid ""
 "First choice Ubuntu platform for remote workstation solutions such as LTSP "
 "and X2Go."
-msgstr ""
+msgstr "proporsi come piattaforma Ubuntu di prima scelta per workstation remote come LTSP e X2GO;"
 
 #: introduction.html:97
 msgid ""
 "Recreate the halcyon days of Ubuntu for users who prefer a traditional "
 "desktop metaphor."
-msgstr ""
+msgstr "ricreare i bei vecchi tempi di Ubuntu per gli utenti che preferiscono la metafora desktop tradizionale;"
 
 #: introduction.html:98
 msgid ""
 "Use themes and artwork similar to Ubuntu so that Ubuntu MATE is immediately "
 "familiar."
-msgstr ""
+msgstr "usare temi e artwork simili ad Ubuntu così che Ubuntu MATE appaia immediatamente familiare;"
 
 #: introduction.html:99
 msgid ""
 "When possible contribute to Debian so both the Debian and Ubuntu communities"
 " benefit."
-msgstr ""
+msgstr "contribuire a Debian il più possibile in modo che entrambe le comunità di Debian e Ubuntu possano beneficiarne;"
 
 #: introduction.html:100
 msgid ""
 "Software selection will favor functionality and stability over lightness and"
 " whimsy."
-msgstr ""
+msgstr "selezionare un parco software che prediliga funzionalità e stabilità rispetto a frivolezze e bizzarrie."
 
 #: introduction.html:116
 msgid "is one of, if not the, largest deployed"

@@ -3,12 +3,13 @@
 # Agustín Alcaraz <alcaraz.agustin@gmail.com>, 2016
 # Edgar Payes <espayesgt@gmail.com>, 2016
 # Leo Arias <yo@elopio.net>, 2016
+# Simeon Ivanov <smstiv@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Ubuntu MATE Welcome\n"
 "POT-Creation-Date: 2016-02-27 12:48+0100\n"
-"PO-Revision-Date: 2016-04-07 12:46+0000\n"
-"Last-Translator: Martin Wimpress <code@flexion.org>\n"
+"PO-Revision-Date: 2016-06-01 16:30+0000\n"
+"Last-Translator: Simeon Ivanov <smstiv@gmail.com>\n"
 "Language-Team: Spanish (Spain) (http://www.transifex.com/ubuntu-mate/ubuntu-mate-welcome/language/es_ES/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1120,7 +1121,7 @@ msgid ""
 "Share your computer with others? Set up a separate user account for each "
 "user to protect the individual privacy of each user sharing the same "
 "computer."
-msgstr ""
+msgstr "Compartir el equipo con otros? Configurar una cuenta de usuario separada para cada usuario para proteger la privacidad individual de cada usuario que comparta el mismo equipo."
 
 #: gettingstarted.html:692
 msgid "You can also log in to a"
@@ -1675,11 +1676,11 @@ msgstr "Capacidad Total del Disco:"
 
 #: gettingstarted.html:1182
 msgid "Ubuntu MATE's Partition"
-msgstr ""
+msgstr "Particiones Ubuntu MATE"
 
 #: gettingstarted.html:1183
 msgid "Other partitions, unallocated or swap space."
-msgstr ""
+msgstr "Otras particiones, espacio no asignado o de intercambio."
 
 #: gettingstarted.html:1188
 msgid "Allocated for Ubuntu MATE:"
@@ -1687,7 +1688,7 @@ msgstr "Asignado para Ubuntu MATE:"
 
 #: gettingstarted.html:1191
 msgid "The size of your operating system partition."
-msgstr ""
+msgstr "El tamaño de la partición del sistema operativo."
 
 #: gettingstarted.html:1197
 msgid "Free Space:"
@@ -1695,7 +1696,7 @@ msgstr "Espacio Libre:"
 
 #: gettingstarted.html:1200
 msgid "How much space is available to use."
-msgstr ""
+msgstr "Espacio disponible para su uso."
 
 #: gettingstarted.html:1208
 msgid "Why do I see two units?"
@@ -1799,32 +1800,32 @@ msgstr "Visualiza procesos, el uso de recursos actualmente en ejecución, y la c
 
 #: gettingstarted.html:1331
 msgid "Psensor"
-msgstr ""
+msgstr "Psensor"
 
 #: gettingstarted.html:1332
 msgid ""
 "Views and graphs the current temperature of components attached to the "
 "system. Including: Motherboard, CPU, GPU and hard disks."
-msgstr ""
+msgstr "Vistas y gráficos de la temperatura actual de los componentes conectados al sistema. Incluyendo: placa base, CPU, GPU y discos duros."
 
 #: gettingstarted.html:583
 msgid ""
 "Your computer may require updates to your language and localization "
 "settings, or you may want to install additional language support."
-msgstr ""
+msgstr "Tu equipo puede requerir cambios a la configuración de idioma y localización, o es posible que desees instalar un soporte de idioma adicional."
 
 #: gettingstarted.html:1182
 msgid "Ubuntu MATE Usage"
-msgstr ""
+msgstr "Uso Ubuntu MATE"
 
 #: gettingstarted.html:1200
 msgid "Used Space:"
-msgstr ""
+msgstr "Espacio Usado:"
 
 #: gettingstarted.html:1212
 msgid "Other Usage:"
-msgstr ""
+msgstr "Otro Uso:"
 
 #: gettingstarted.html:1215
 msgid "Reserved by system, other partitions, unallocated or swap."
-msgstr ""
+msgstr "Otras particiones, espacio no asignado o de intercambio."

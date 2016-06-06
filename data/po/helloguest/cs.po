@@ -16,7 +16,7 @@ msgstr ""
 
 #: helloguest.html14, 33
 msgid "Welcome"
-msgstr ""
+msgstr "Vítejte"
 
 #: helloguest.html:23
 msgid "Entering the Guest Session."

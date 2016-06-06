@@ -1,12 +1,13 @@
 # 
 # Translators:
 # Agustín Alcaraz <alcaraz.agustin@gmail.com>, 2016
+# Simeon Ivanov <smstiv@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Ubuntu MATE Welcome\n"
 "POT-Creation-Date: 2016-02-27 12:48+0100\n"
-"PO-Revision-Date: 2016-04-03 14:00+0000\n"
-"Last-Translator: Martin Wimpress <code@flexion.org>\n"
+"PO-Revision-Date: 2016-06-01 16:23+0000\n"
+"Last-Translator: Simeon Ivanov <smstiv@gmail.com>\n"
 "Language-Team: Spanish (Spain) (http://www.transifex.com/ubuntu-mate/ubuntu-mate-welcome/language/es_ES/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -69,11 +70,11 @@ msgstr "Servidores"
 
 #: software.html35, 35
 msgid "More Software"
-msgstr ""
+msgstr "Descubre Más Software"
 
 #: software.html36, 36
 msgid "Fixes"
-msgstr ""
+msgstr "Correcciones"
 
 #: software.html:45
 msgid "Software Boutique"

@@ -1,5 +1,6 @@
 # 
 # Translators:
+# Christian Wagner <wagnerschristian@gmail.com>, 2016
 # FortressBuilder <fellner.sebastian@gmail.com>, 2016
 # Stephen, 2016
 # Stephen, 2016
@@ -7,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ubuntu MATE Welcome\n"
 "POT-Creation-Date: 2016-02-27 12:48+0100\n"
-"PO-Revision-Date: 2016-05-05 12:39+0000\n"
-"Last-Translator: FortressBuilder <fellner.sebastian@gmail.com>\n"
+"PO-Revision-Date: 2016-05-28 14:58+0000\n"
+"Last-Translator: Christian Wagner <wagnerschristian@gmail.com>\n"
 "Language-Team: German (http://www.transifex.com/ubuntu-mate/ubuntu-mate-welcome/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -59,11 +60,11 @@ msgstr "Sound & Video"
 
 #: software.html32, 32, 234
 msgid "System Tools"
-msgstr "System Tools (Systemwerkzeuge)"
+msgstr "Systemwerkzeuge"
 
 #: software.html33, 33, 247
 msgid "Universal Access"
-msgstr "Universal-Zugang"
+msgstr "Barrierefreiheit"
 
 #: software.html34, 34, 257
 msgid "Servers"
@@ -88,7 +89,7 @@ msgid ""
 " of the best-in-class applications chosen because they integrate well, "
 "complement Ubuntu MATE and enable you to self style your computing "
 "experience."
-msgstr "Es gibt jede Menge Software für Ubuntu MATE und einige Leute finden, dass die Auswahl einfach überwältigend ist. Die Software-Boutique ist eine sorgfältige Auswahl der besten Anwendungen, die sich gut integrieren, Ubuntu MATE ergänzen und Ihnen erlauben, Ihr Erlebnis selbst zu gestalten."
+msgstr "Es gibt jede Menge Software für Ubuntu MATE und einige Leute finden, dass die Auswahl einfach überwältigend ist. Die Software-Boutique ist eine sorgfältige Auswahl der besten Anwendungen, die sich gut in Ubuntu MATE integrieren, es ergänzen und Ihnen erlauben, Ihr Erlebnis mit dem System selbst zu gestalten."
 
 #: software.html:53
 msgid "If you can't find what you're looking for, install one of the"
@@ -181,11 +182,11 @@ msgstr "Wenn keine Verbindung besteht, sieht das Applet so aus:"
 msgid ""
 "Is there a physical switch that may have accidentally switched off wireless "
 "functionality?"
-msgstr "Gibt es möglicherweise einen physischen Schalter, der versehentlich die Wireless-Funktion ausgeschaltet hat?"
+msgstr "Gibt es möglicherweise einen Schalter, der versehentlich die Wireless-Funktion ausgeschaltet hat?"
 
 #: software.html:99
 msgid "Is there a soft (keyboard) switch that toggles it off?"
-msgstr "Gibt es einen weichen (Tastatur-)Schalter, der es abschaltet?"
+msgstr "Gibt es eine Funktionstaste (auf der Tastatur), der es abschaltet?"
 
 #: software.html:101
 msgid "You may need to hold the FN key while pressing the function key."
@@ -197,7 +198,7 @@ msgstr "Hier ein Beispiel:"
 
 #: software.html:106
 msgid "Not working at all or experiencing sluggish connections?"
-msgstr "Erleben Sie eine langsame Verbindung oder funktioniert es überhaupt nicht?"
+msgstr "Haben Sie eine langsame Verbindung oder funktioniert es überhaupt nicht?"
 
 #: software.html:107
 msgid ""
@@ -221,7 +222,7 @@ msgstr "könnte sie für Ihr System zur Verfügung haben."
 msgid ""
 "Otherwise, you will need to manually install third party drivers for your "
 "hardware, or a download specific package containing the firmware. See"
-msgstr "Andernfalls müssen Sie Treiber von Drittanbietern manuell für Ihre Hardware installieren, oder ein download-spezifisches Paket, das die Firmware enthält. Sehen Sie"
+msgstr "Andernfalls müssen Sie Treiber von Drittanbietern manuell für Ihre Hardware installieren, oder ein spezifisches Paket, das die Firmware enthält, herunterladen. Sehen Sie"
 
 #: software.html:111
 msgid "Drivers"
@@ -261,7 +262,7 @@ msgstr "Kein Filter"
 
 #: software.html:134
 msgid "Handy utilities for your computing needs."
-msgstr "Praktische Dienstprogramme für Ihre IT-Anforderungen."
+msgstr "Praktische Dienstprogramme für Ihre Arbeit am Computer."
 
 #: software.html:147
 msgid "For study and children."
@@ -269,7 +270,7 @@ msgstr "Zum Lernen und für Kinder."
 
 #: software.html:160
 msgid "A selection of 2D and 3D games for your enjoyment."
-msgstr "Eine Auswahl von 2D- und 3D-Spiele für Ihren Genuss."
+msgstr "Eine Auswahl von 2D- und 3D-Spiele für Ihren Zeitvertreib."
 
 #: software.html:173
 msgid "For producing and editing works of art."
@@ -277,7 +278,7 @@ msgstr "Für die Herstellung und Bearbeitung von Kunstwerken."
 
 #: software.html:186
 msgid "For staying connected and enjoying the features of your own cloud."
-msgstr "Um verbunden zu bleiben und die Funktionen Ihrer eigenen Cloud zu genießen."
+msgstr "Um verbunden zu bleiben und die Funktionen einer eigenen Cloud zu genießen."
 
 #: software.html:199
 msgid "For more then just documents and spreadsheets."
@@ -285,19 +286,19 @@ msgstr "Für mehr als nur Dokumente und Tabellen."
 
 #: software.html:212
 msgid "For the developers and system administrators out there."
-msgstr "Für die Entwickler und Systemadministratoren da draußen."
+msgstr "Für die Entwickler und Systemadministratoren."
 
 #: software.html:225
 msgid "Multimedia software for listening and production."
-msgstr "Multimedia-Software zum Anhören und zur Produktion."
+msgstr "Multimedia-Software zum Hören und zur Produktion."
 
 #: software.html:238
 msgid "Software that makes the most out of your system resources."
-msgstr "Software, die das Beste aus Ihren System-Ressourcen herausholt."
+msgstr "Software, die das Beste aus Ihren System-Ressourcen macht."
 
 #: software.html:248
 msgid "Software that makes your computer more accessible."
-msgstr "Software, die Ihren Computer zugänglicher macht."
+msgstr "Software, die Ihren Computer einfacher zugänglicher macht."
 
 #: software.html:258
 msgid "One-click installations for serving the network."
@@ -311,7 +312,7 @@ msgstr "Mehr Software entdecken"
 msgid ""
 "Graphical interfaces to browse a wide selection of software available for "
 "your operating system."
-msgstr "Grafische Oberflächen für Ihr Betriebssystem um eine große Auswahl an Software zu suchen."
+msgstr "Grafische Programme für Ihr Betriebssystem um eine große Auswahl an Software zu finden."
 
 #: software.html:276
 msgid "Miscellaneous Fixes"
@@ -402,11 +403,11 @@ msgstr "Paketbeschädigungen beheben"
 msgid ""
 "In addition, listed below are terminal equivalent commands that otherwise "
 "appear in the"
-msgstr "Darüber hinaus sind unten Konsolen-Befehle aufgelistet, die"
+msgstr "Darüber hinaus sind unten alternative Konsolen-Befehle aufgelistet, die üblicherweise von der "
 
 #: software.html:321
 msgid "Software Updater"
-msgstr "in der Aktualisierungsverwaltung erscheinen"
+msgstr " Aktualisierungsverwaltung ausgeführt werden."
 
 #: software.html:323
 msgid "Upgrade all packages that have a new version available:"
@@ -414,7 +415,7 @@ msgstr "Alle Pakete aktualisieren, für die neue Versionen verfügbar sind:"
 
 #: software.html:327
 msgid "Upgrade to a new release of Ubuntu MATE:"
-msgstr "Ubuntu MATE zu einer neuen Version aktualisieren:"
+msgstr "Ubuntu MATE auf eine neue Version aktualisieren:"
 
 #: software.html:341
 msgid "Filter by Software License"

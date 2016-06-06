@@ -40,7 +40,7 @@ msgstr ""
 
 #: index.html:46
 msgid "Getting Started"
-msgstr ""
+msgstr "Alustamine"
 
 #: index.html:47
 msgid "Installation Help"
@@ -68,7 +68,7 @@ msgstr ""
 
 #: index.html:64
 msgid "Software"
-msgstr ""
+msgstr "Tarkvara"
 
 #: index.html:65
 msgid "Install Now"
