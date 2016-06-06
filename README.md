@@ -62,7 +62,6 @@ and testing purposes, the following can be specified:
   * gir1.2-gtk-3.0
   * gir1.2-notify-0.7
   * gir1.2-webkit-3.0
-  * libgtk2-perl
   * libnotify-bin
   * parted
   * pciutils
