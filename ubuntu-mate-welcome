@@ -2590,7 +2590,7 @@ class DynamicApps(object):
                     self.set_app_info(category, program_id)
                     return_code = self.append_app_listing(category, program_id, '#search-results')
                     if not return_code == 1 or return_code == 2:
-                        dynamicapps.update_app_status(self, program_id)
+                        dynamicapps.update_app_status(app.webkit, program_id)
                         total_results = total_results + 1
 
         if total_results == 0:
