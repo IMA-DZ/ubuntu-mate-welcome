@@ -537,7 +537,9 @@ if ( current_page == 'software.html' ) {
     // Search again but include non-free matches.
     function searchAgainNonFree() {
       toggleNonFree()
-      searchNow()
+      setTimeout(function(){
+          searchNow()
+      }, 500);
     }
 }
 
