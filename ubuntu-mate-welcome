@@ -1970,9 +1970,9 @@ class DynamicApps(object):
 
         # "Normal" packages that can be installed/removed by the user.
         if self.app_open_source:
-            html_buffer = html_buffer + '<div id="' + css_class + '" class="app-entry filter-' + css_subcategory + '">'
+            html_buffer = html_buffer + '<div id="' + css_class + '" class="' + css_class + ' app-entry filter-' + css_subcategory + '">'
         else:
-            html_buffer = html_buffer + '<div id="' + css_class + '" class="app-entry filter-' + css_subcategory + ' proprietary">'
+            html_buffer = html_buffer + '<div id="' + css_class + '" class="' + css_class + ' app-entry filter-' + css_subcategory + ' proprietary">'
         html_buffer = html_buffer + '<div class="row-fluid">'
         html_buffer = html_buffer + '<div class="span2 center-inside">'
         html_buffer = html_buffer + '<img src="img/applications/' + self.app_img + '.png">'
