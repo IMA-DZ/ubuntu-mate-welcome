@@ -1,3 +1,27 @@
+ubuntu-mate-welcome (16.10.0~xenial1.9.1) xenial; urgency=medium
+
+  [ Luke Horwell ]
+  * Bug Fixes
+    - Fix 'empty filters' regression caused by backport.
+    - Prevent "invalid packages" for screensavers.
+  * General
+    - Support enabling of multiverse repository.
+    - Update Welcome languages for desktop launcher.
+    - Remove unused / duplicate imports.
+  * Application Updates
+    * Update Steam to install from Ubuntu repositories.
+    * Update news.
+    * Update VirtualBox entry.
+    * "Virtualisation" Typo
+    * Fix wrong launch command for ardour Closes (LP: #1591373)  
+
+  [ Martin Wimpress ]
+  * Bump Standards: to 3.9.7. No changes needed.
+  * Update copyright attributions.
+  * Update translations.
+
+ -- Martin Wimpress <code@flexion.org>  Sat, 11 Jun 2016 21:06:32 +0100
+
 ubuntu-mate-welcome (16.10.0~xenial1.8.2) xenial; urgency=medium
 
   [ Luke Horwell ]
