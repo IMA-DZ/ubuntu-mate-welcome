@@ -36,17 +36,13 @@ import glob
 import inspect
 import json
 import locale
-import logging
 import os
 import platform
 import random
-import shutil
 import signal
 import socket
 import subprocess
 import sys
-import tempfile
-import urllib.request
 import webbrowser
 
 import urllib.error
