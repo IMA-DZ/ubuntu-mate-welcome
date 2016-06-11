@@ -36,17 +36,13 @@ import glob
 import inspect
 import json
 import locale
-import logging
 import os
 import platform
 import random
-import shutil
 import signal
 import socket
 import subprocess
 import sys
-import tempfile
-import urllib.request
 import webbrowser
 
 import urllib.error
@@ -575,6 +571,13 @@ class PreInstallation(object):
                     if not simulating:
                         run_task('enable_partner_repository')
                         transaction.update_cache = True
+
+                elif method == 'multiverse-repo':
+                    print('[Pre-Install] Enabling the Ubuntu partner repository.')
+                    if not simulating:
+                        run_task('enable_multiverse_repository')
+                        transaction.update_cache = True
+                        queue.must_update_cache = True
 
                 elif method == 'ppa':
                     try:
@@ -1932,6 +1935,7 @@ class DynamicApps(object):
         str_source_manual = '<span class="fa fa-globe"></span></a>&nbsp;'
         str_source_partner = '<img src="img/logos/ubuntu-mono.png" width="16px" height="16px"/>&nbsp;' + _('Canonical Partner Repository')
         str_source_skip = '<img src="img/logos/ubuntu-mono.png" width="16px" height="16px"/>&nbsp;' + _('Ubuntu Repository')
+        str_source_multiverse = '<img src="img/logos/ubuntu-mono.png" width="16px" height="16px"/>&nbsp;' + _('Ubuntu Multiverse Repository')
         str_unknown = _('Unknown')
 
         # Only list the program if it's working.
@@ -1970,9 +1974,9 @@ class DynamicApps(object):
 
         # "Normal" packages that can be installed/removed by the user.
         if self.app_open_source:
-            html_buffer = html_buffer + '<div id="' + css_class + '" class="app-entry filter-' + css_subcategory + '">'
+            html_buffer = html_buffer + '<div id="' + css_class + '" class="' + css_class + ' app-entry filter-' + css_subcategory + '">'
         else:
-            html_buffer = html_buffer + '<div id="' + css_class + '" class="app-entry filter-' + css_subcategory + ' proprietary">'
+            html_buffer = html_buffer + '<div id="' + css_class + '" class="' + css_class + ' app-entry filter-' + css_subcategory + ' proprietary">'
         html_buffer = html_buffer + '<div class="row-fluid">'
         html_buffer = html_buffer + '<div class="span2 center-inside">'
         html_buffer = html_buffer + '<img src="img/applications/' + self.app_img + '.png">'
@@ -2068,6 +2072,9 @@ class DynamicApps(object):
 
                 elif method == 'partner-repo':
                     self.source_info.insert(0, str_source_partner)
+
+                elif method == 'multiverse-repo':
+                    self.source_info.insert(0, str_source_multiverse)
 
                 elif method == 'ppa':
                     ppa = preinstall[target]['enable-ppa']
