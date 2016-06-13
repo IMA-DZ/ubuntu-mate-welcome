@@ -1,4 +1,9 @@
 {
+    "16.10.0-xenial1.10": {
+        "add": [
+            "hipchat"
+        ],
+    },    
     "16.10.0-xenial1.9": {
         "fix": {
             "steam": "new-source"
