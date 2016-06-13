@@ -3,7 +3,10 @@
         "add": [
             "hipchat"
         ],
-    },    
+        "fix": {
+            "flightgear": "new-source"
+        }
+    },
     "16.10.0-xenial1.9": {
         "fix": {
             "steam": "new-source"

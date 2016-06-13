@@ -712,6 +712,11 @@
             "arch": "i386,amd64",
             "releases": "trusty,wily,xenial",
             "pre-install": {
+                "xenial": {
+                    "method": "ppa",
+                    "enable-ppa": "ppa:saiarcot895/flightgear",
+                    "source-file": "saiarcot895-ubuntu-flightgear-CODENAME"
+                },
                 "all": {
                     "method": "skip"
                 }
