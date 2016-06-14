@@ -9,7 +9,8 @@
             "youtube-dlg",
         ],
         "fix": {
-            "flightgear": "new-source"
+            "flightgear": "new-source",
+            "gnome-orca": "new-source"
         }
     },
     "16.10.0-xenial1.9": {
