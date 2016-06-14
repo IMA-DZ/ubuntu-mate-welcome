@@ -2,6 +2,7 @@
     "16.10.0-xenial1.10": {
         "add": [
             "activity-log-manager",
+            "alarm-clock-applet",
             "d-feet",
             "hipchat"
         ],
