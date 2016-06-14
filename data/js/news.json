@@ -5,6 +5,7 @@
             "alarm-clock-applet",
             "d-feet",
             "hipchat",
+            "openshot-qt",
             "youtube-dlg",
         ],
         "fix": {
