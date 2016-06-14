@@ -4,7 +4,8 @@
             "activity-log-manager",
             "alarm-clock-applet",
             "d-feet",
-            "hipchat"
+            "hipchat",
+            "youtube-dlg",
         ],
         "fix": {
             "flightgear": "new-source"
