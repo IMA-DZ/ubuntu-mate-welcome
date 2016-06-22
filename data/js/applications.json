@@ -1042,7 +1042,7 @@
             "img": "playonlinux",
             "main-package": "playonlinux",
             "launch-command": "playonlinux",
-            "install-packages": "playonlinux,wine",
+            "install-packages": "playonlinux",
             "remove-packages": "playonlinux",
             "description": [
                 "A frontend for the Wine Compatibility Layer.",
@@ -1058,26 +1058,10 @@
             "arch": "i386,amd64",
             "releases": "trusty,wily,xenial",
             "pre-install": {
-                "precise": {
-                    "method": "ppa+manual",
-                    "enable-ppa": "ppa:ubuntu-wine/ppa",
-                    "apt-key-url": "http://deb.playonlinux.com/public.gpg",
-                    "apt-sources": [
-                        "deb http://deb.playonlinux.com/ CODENAME main"
-                    ]
-                },
-                "trusty": {
-                    "method": "ppa+manual",
-                    "enable-ppa": "ppa:ubuntu-wine/ppa",
-                    "apt-key-url": "http://deb.playonlinux.com/public.gpg",
-                    "apt-sources": [
-                        "deb http://deb.playonlinux.com/ CODENAME main"
-                    ]
-                },
                 "all": {
-                    "method": "ppa+manual",
-                    "enable-ppa": "ppa:ubuntu-wine/ppa",
+                    "method": "manual",
                     "apt-key-url": "http://deb.playonlinux.com/public.gpg",
+                    "source-file": "playonlinux",
                     "apt-sources": [
                         "deb http://deb.playonlinux.com/ trusty main"
                     ]
