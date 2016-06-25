@@ -6,11 +6,14 @@
             "d-feet",
             "hipchat",
             "openshot-qt",
-            "youtube-dlg"
+            "youtube-dlg",
+            "antiviral",
+            "wine-devel"
         ],
         "fix": {
             "flightgear": "new-source",
-            "gnome-orca": "new-source"
+            "gnome-orca": "new-source",
+            "playonlinux": "general"
         }
     },
     "16.10.0-xenial1.9": {
