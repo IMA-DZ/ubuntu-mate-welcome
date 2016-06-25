@@ -577,7 +577,6 @@ class PreInstallation(object):
                     if not simulating:
                         run_task('enable_multiverse_repository')
                         transaction.update_cache = True
-                        queue.must_update_cache = True
 
                 elif method == 'ppa':
                     try:
