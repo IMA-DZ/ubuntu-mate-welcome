@@ -2755,7 +2755,7 @@ class Arguments(object):
           if arg.startswith('--force-arch'):
               try:
                   self.simulate_arch = arg.split('--force-arch=')[1]
-                  if self.simulate_arch not in ['i386', 'amd64', 'armhf', 'arm64', 'powerpc']:
+                  if self.simulate_arch not in ['i386', 'amd64', 'armhf', 'arm64', 'powerpc', 'ppc64el']:
                       print('[Debug] Unrecognised architecture: ' + self.simulate_arch)
                       exit()
                   else:
