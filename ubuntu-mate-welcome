@@ -577,7 +577,6 @@ class PreInstallation(object):
                     if not simulating:
                         run_task('enable_multiverse_repository')
                         transaction.update_cache = True
-                        queue.must_update_cache = True
 
                 elif method == 'ppa':
                     try:
@@ -2476,7 +2475,7 @@ class DynamicApps(object):
         # Begin generating the HTML to append.
         news_buffer = '<hr class="soften">'
         news_versions = list(self.news.keys())
-        news_versions.sort(reverse=True)
+        news_versions = sorted( news_versions, reverse=True, key=lambda news_versions: int(news_versions.split(".")[-1]) )
         for version in news_versions:
             news_buffer = news_buffer + '<h4>' + version + '</h4><div class="news-list-version">'
 
@@ -2734,7 +2733,7 @@ class Arguments(object):
               print('\nUsage: ubuntu-mate-welcome [arguments]')
               print('  -v  --verbose               Show more details.')
               print('  --force-arch=<ARCH>         Simulate a specific architecture.')
-              print('                                 "i386", "amd64" or "armhf" or "powerpc"')
+              print('                                 i386, amd64, armhf, amd64, powerpc"')
               print('  --force-session=<TYPE>      Simulate a specific architecture.')
               print('                                 "guest", "live" or "pi" or "vbox"')
               print('  --force-codename=<NAME>     Simulate a specific Ubuntu MATE codename release.')
@@ -2756,7 +2755,7 @@ class Arguments(object):
           if arg.startswith('--force-arch'):
               try:
                   self.simulate_arch = arg.split('--force-arch=')[1]
-                  if not self.simulate_arch == 'i386' and not self.simulate_arch == 'amd64' and not self.simulate_arch == 'armhf' and not self.simulate_arch == 'powerpc':
+                  if self.simulate_arch not in ['i386', 'amd64', 'armhf', 'arm64', 'powerpc', 'ppc64el']:
                       print('[Debug] Unrecognised architecture: ' + self.simulate_arch)
                       exit()
                   else:
@@ -2768,7 +2767,7 @@ class Arguments(object):
           if arg.startswith('--force-session'):
               try:
                   self.simulate_session = arg.split('--force-session=')[1]
-                  if not self.simulate_session == 'guest' and not self.simulate_session == 'live' and not self.simulate_session == 'pi' and not self.simulate_session == 'vbox':
+                  if self.simulate_session not in ['guest', 'live', 'pi', 'vbox']:
                       print('[Debug] Unrecognised session type: ' + self.simulate_session)
                       exit()
                   else:
