@@ -2733,7 +2733,7 @@ class Arguments(object):
               print('\nUsage: ubuntu-mate-welcome [arguments]')
               print('  -v  --verbose               Show more details.')
               print('  --force-arch=<ARCH>         Simulate a specific architecture.')
-              print('                                 "i386", "amd64" or "armhf" or "powerpc"')
+              print('                                 i386, amd64, armhf, amd64, powerpc"')
               print('  --force-session=<TYPE>      Simulate a specific architecture.')
               print('                                 "guest", "live" or "pi" or "vbox"')
               print('  --force-codename=<NAME>     Simulate a specific Ubuntu MATE codename release.')
@@ -2755,7 +2755,7 @@ class Arguments(object):
           if arg.startswith('--force-arch'):
               try:
                   self.simulate_arch = arg.split('--force-arch=')[1]
-                  if not self.simulate_arch == 'i386' and not self.simulate_arch == 'amd64' and not self.simulate_arch == 'armhf' and not self.simulate_arch == 'powerpc':
+                  if self.simulate_arch not in ['i386', 'amd64', 'armhf', 'arm64', 'powerpc']:
                       print('[Debug] Unrecognised architecture: ' + self.simulate_arch)
                       exit()
                   else:
@@ -2767,7 +2767,7 @@ class Arguments(object):
           if arg.startswith('--force-session'):
               try:
                   self.simulate_session = arg.split('--force-session=')[1]
-                  if not self.simulate_session == 'guest' and not self.simulate_session == 'live' and not self.simulate_session == 'pi' and not self.simulate_session == 'vbox':
+                  if self.simulate_session not in ['guest', 'live', 'pi', 'vbox']:
                       print('[Debug] Unrecognised session type: ' + self.simulate_session)
                       exit()
                   else:
