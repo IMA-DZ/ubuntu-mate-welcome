@@ -242,12 +242,12 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64,armhf,arm64,powerpc,ppc64el",
+            "releases": "trusty,wily,xenial",
             "pre-install": {
                 "all": {
                     "method": "skip"
                 }
             },
-            "releases": "trusty,wily,xenial",
             "working": true
         },
         "gparted": {
@@ -270,12 +270,12 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64,armhf,arm64,powerpc,ppc64el",
+            "releases": "trusty,wily,xenial",
             "pre-install": {
                 "all": {
                     "method": "skip"
                 }
             },
-            "releases": "trusty,wily,xenial",
             "working": true
         },
         "keepassx": {
@@ -302,13 +302,13 @@
             "arch": "i386,amd64",
             "releases": "trusty,wily,xenial",
             "pre-install": {
-                "xenial": {
-                    "method": "skip"
-                },
-                "all": {
+                "trusty,wily": {
                     "method": "ppa",
                     "enable-ppa": "ppa:flexiondotorg/keeypassx",
                     "source-file": "flexiondotorg-ubuntu-keeypassx-CODENAME"
+                },
+                "all": {
+                    "method": "skip"
                 }
             },
             "working": true
@@ -373,12 +373,12 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64,armhf,arm64,powerpc,ppc64el",
+            "releases": "trusty,wily,xenial",
             "pre-install": {
                 "all": {
                     "method": "skip"
                 }
             },
-            "releases": "trusty,wily,xenial",
             "working": true
         },
         "hamster-applet": {
@@ -397,7 +397,7 @@
                 "for project management or keeping employee timesheets."
             ],
             "alternate-to": null,
-            "subcategory": "Productivity",
+            "subcategory": "Productivity Tracking",
             "open-source": true,
             "url-info": "https://projecthamster.wordpress.com/about/",
             "url-android": null,
@@ -570,12 +570,12 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64,armhf,arm64,powerpc,ppc64el",
+            "releases": "wily,xenial",
             "pre-install": {
                 "all": {
                     "method": "skip"
                 }
             },
-            "releases": "wily,xenial",
             "working": true
         },
         "libreoffice-math": {
@@ -602,12 +602,12 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64,armhf,arm64,powerpc,ppc64el",
+            "releases": "wily,xenial",
             "pre-install": {
                 "all": {
                     "method": "skip"
                 }
             },
-            "releases": "trusty,wily,xenial",
             "working": true
         },
         "stellarium": {
@@ -833,7 +833,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64,armhf,arm64,powerpc,ppc64el",
-            "releases": "trusty,wily,xenial",
+            "releases": "wily,xenial",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -926,7 +926,7 @@
             "url-info": "http://www.hedgewars.org",
             "url-android": null,
             "url-ios": null,
-            "arch": "i386,amd64,powerpc",
+            "arch": "i386,amd64",
             "releases": "trusty,wily,xenial",
             "pre-install": {
                 "all": {
@@ -1279,7 +1279,7 @@
             "url-info": "https://www.teeworlds.com",
             "url-android": null,
             "url-ios": null,
-            "arch": "i386,amd64,armhf,arm64,powerpc,ppc64el",
+            "arch": "i386,amd64,armhf,arm64,powerpc",
             "releases": "trusty,wily,xenial",
             "pre-install": {
                 "all": {
@@ -1781,7 +1781,7 @@
             "url-info": "https://www.getsync.com/",
             "url-android": "https://play.google.com/store/apps/details?id=com.bittorrent.sync",
             "url-ios": "https://itunes.apple.com/gb/app/bittorrent-sync/id665156116",
-            "arch": "i386,amd64,armhf,arm64",
+            "arch": "i386,amd64,armhf",
             "releases": "trusty,wily,xenial",
             "pre-install": {
                 "all": {
@@ -1815,15 +1815,14 @@
             "url-info": "https://www.chromium.org/Home",
             "url-android": null,
             "url-ios": null,
-            "arch": "i386,amd64,armhf,arm64",
+            "arch": "i386,amd64,armhf",
             "releases": "trusty,wily,xenial",
             "pre-install": {
                 "all": {
                     "method": "skip"
                 }
             },
-            "working": true,
-            "notes": "arm64 package is very outdated!"
+            "working": true
         },
         "corebird": {
             "name": "Corebird",
@@ -1845,7 +1844,7 @@
             "url-android": "https://play.google.com/store/apps/details?id=com.twitter.android",
             "url-ios": "https://itunes.apple.com/gb/app/twitter/id333903271",
             "arch": "i386,amd64",
-            "releases": "wily,xenial",
+            "releases": "xenial",
             "pre-install": {
                 "all": {
                     "method": "ppa",
@@ -1974,12 +1973,7 @@
             "arch": "i386,amd64,armhf,arm64,powerpc,ppc64el",
             "releases": "trusty,wily,xenial",
             "pre-install": {
-                "trusty": {
-                    "method": "ppa",
-                    "enable-ppa": "ppa:flexiondotorg/gajim",
-                    "source-file": "flexiondotorg-ubuntu-gajim-CODENAME"
-                },
-                "wily": {
+                "trusty,wily": {
                     "method": "ppa",
                     "enable-ppa": "ppa:flexiondotorg/gajim",
                     "source-file": "flexiondotorg-ubuntu-gajim-CODENAME"
@@ -2179,7 +2173,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64,armhf,arm64,powerpc,ppc64el",
-            "releases": "trusty,wily",
+            "releases": "wily",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -2316,17 +2310,7 @@
             "arch": "i386,amd64,armhf,arm64,powerpc,ppc64el",
             "releases": "trusty,wily,xenial",
             "pre-install": {
-                "precise": {
-                    "method": "ppa",
-                    "enable-ppa": "ppa:mumble/release",
-                    "source-file": "mumble-ubuntu-release-CODENAME"
-                },
-                "trusty": {
-                    "method": "ppa",
-                    "enable-ppa": "ppa:mumble/release",
-                    "source-file": "mumble-ubuntu-release-CODENAME"
-                },
-                "wily": {
+                "trusty,wily": {
                     "method": "ppa",
                     "enable-ppa": "ppa:mumble/release",
                     "source-file": "mumble-ubuntu-release-CODENAME"
@@ -2494,11 +2478,8 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "trusty,wily,xenial",
+            "releases": "wily,xenial",
             "pre-install": {
-                "trusty": {
-                    "method": "skip"
-                },
                 "all": {
                     "method": "ppa",
                     "enable-ppa": "ppa:flexiondotorg/sparkleshare",
@@ -2576,8 +2557,7 @@
                     ]
                 }
             },
-            "working": true,
-            "notes": "unsure if arm64 supported"
+            "working": true
         },
         "telegram": {
             "name": "Telegram",
@@ -3047,7 +3027,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64,armhf,arm64,powerpc,ppc64el",
-            "releases": "trusty,wily,xenial",
+            "releases": "wily,xenial",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -3512,8 +3492,7 @@
                     "source-file": "ubuntu-sdk-team-ubuntu-ppa-CODENAME"
                 }
             },
-            "working": true,
-            "notes": "arm64 available for yakkety"
+            "working": true
         }
     },
     "Media": {
@@ -3637,7 +3616,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64,armhf,arm64,powerpc,ppc64el",
-            "releases": "trusty,wily,xenial",
+            "releases": "wily,xenial",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -3836,7 +3815,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64,armhf,arm64,powerpc,ppc64el",
-            "releases": "trusty,wily,xenial",
+            "releases": "wily,xenial",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -3900,8 +3879,7 @@
                     "method": "skip"
                 }
             },
-            "working": true,
-            "notes": "no ppc64el packages"
+            "working": true
         },
         "kodi": {
             "name": "Kodi",
@@ -4105,11 +4083,6 @@
             "arch": "i386,amd64,armhf,arm64,powerpc,ppc64el",
             "releases": "trusty,wily,xenial",
             "pre-install": {
-                "precise": {
-                    "method": "ppa",
-                    "enable-ppa": "ppa:pithos/ppa",
-                    "source-file": "pithos-ubuntu-ppa-CODENAME"
-                },
                 "trusty": {
                     "method": "ppa",
                     "enable-ppa": "ppa:pithos/ppa",
@@ -4335,8 +4308,7 @@
                     "source-file": "teejee2008-ubuntu-ppa-CODENAME"
                 }
             },
-            "working": true,
-            "notes": "no arm64 packages"
+            "working": true
         },
         "bleachbit": {
             "name": "BleachBit",
@@ -4480,7 +4452,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64,armhf,arm64,powerpc,ppc64el",
-            "releases": "trusty,wily,xenial",
+            "releases": "wily,xenial",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -4542,7 +4514,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64,armhf,arm64,powerpc,ppc64el",
-            "releases": "trusty,wily,xenial",
+            "releases": "wily,xenial",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -4608,7 +4580,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64,armhf,arm64,powerpc,ppc64el",
-            "releases": "trusty,wily,xenial",
+            "releases": "wily,xenial",
             "pre-install": {
                 "all": {
                     "method": "ppa",
@@ -4618,7 +4590,7 @@
             },
             "working": true
         },
-       "gnome-orca": {
+        "gnome-orca": {
             "name": "Orca",
             "img": "gnome-orca",
             "main-package": "gnome-orca",
@@ -4795,17 +4767,7 @@
             "arch": "i386,amd64,armhf,arm64,powerpc,ppc64el",
             "releases": "trusty,wily,xenial",
             "pre-install": {
-                "precise": {
-                    "method": "ppa",
-                    "enable-ppa": "ppa:mumble/release",
-                    "source-file": "mumble-ubuntu-release-CODENAME"
-                },
-                "trusty": {
-                    "method": "ppa",
-                    "enable-ppa": "ppa:mumble/release",
-                    "source-file": "mumble-ubuntu-release-CODENAME"
-                },
-                "wily": {
+                "trusty,wily": {
                     "method": "ppa",
                     "enable-ppa": "ppa:mumble/release",
                     "source-file": "mumble-ubuntu-release-CODENAME"
@@ -5157,7 +5119,7 @@
             "url-info": "",
             "url-android": null,
             "url-ios": null,
-            "arch": "i386,amd64,armhf,arm64,powerpc,ppc64el",
+            "arch": "i386,amd64,armhf",
             "releases": "trusty,wily,xenial",
             "pre-install": {
                 "all": {
