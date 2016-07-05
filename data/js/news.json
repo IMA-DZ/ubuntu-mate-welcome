@@ -1,4 +1,13 @@
 {
+    "Unreleased-16.10.xenial1.11": {
+        "add": [
+            "retroarch"
+        ],
+        "fix": {
+            "openshot-qt": "general",
+            "darktable": "general"
+        }
+    },
     "16.10.0-xenial1.10": {
         "add": [
             "activity-log-manager",
