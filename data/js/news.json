@@ -7,9 +7,9 @@
             "openshot-qt": "general",
             "darktable": "general"
         },
-        "del": [
+        "del": {
             "antiviral": "unstable"
-        ]
+        }
     },
     "16.10.0-xenial1.10": {
         "add": [
