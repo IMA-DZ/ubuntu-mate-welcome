@@ -1,3 +1,14 @@
+ubuntu-mate-welcome (16.10.0~xenial1.11) xenial; urgency=medium
+
+  * Remove Antiviral.
+  * Add RetroArch.
+  * Correct Darktable architecture listing.
+  * Update Blender's Alternate to field.
+  * Update application listings, drops Trusty where packages unavailable.
+  * Correct Lithuanian string for Welcome launcher.
+
+ -- Martin Wimpress <code@flexion.org>  Tue, 12 Jul 2016 10:25:12 +0100
+
 ubuntu-mate-welcome (16.10.0~xenial1.10) xenial; urgency=medium
 
   * Bug Fixes
