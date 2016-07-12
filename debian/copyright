@@ -20,7 +20,9 @@ License: GPL-3+
 Files: edgar-allan
        clean.sh
        create-test-pos.sh
-       tools/app-index-debugger.py
+       tests/*
+       tools/*
+       perform-tests.sh
        regenerate-pots.sh
        test.po
        welcome-po.py
