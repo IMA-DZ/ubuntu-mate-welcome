@@ -1,7 +1,9 @@
 {
     "16.10.xenial1.12": {
         "fix": {
-            "libreoffice": "general"
+            "libreoffice": "general",
+            "youtube-dlg": "general",
+            "virtualbox": "general"
         }
     },
     "16.10.xenial1.11": {
