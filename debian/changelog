@@ -1,8 +1,8 @@
 ubuntu-mate-welcome (16.10.0~xenial1.12) xenial; urgency=medium
 
-  * Update installation packages for VirtualBox, YouTube-DLG and LibreOffice.
+  * Update installation packages for VirtualBox and LibreOffice.
 
- -- Martin Wimpress <code@flexion.org>  Thu, 11 Aug 2016 21:36:18 +0100
+ -- Martin Wimpress <code@flexion.org>  Mon, 12 Sep 2016 21:36:18 +0100
 
 ubuntu-mate-welcome (16.10.0~xenial1.11) xenial; urgency=medium
 
