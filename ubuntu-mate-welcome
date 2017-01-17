@@ -843,10 +843,6 @@ class AppView(WebKit2.WebView):
         # Perform a smooth transition for footer icons.
         self.do_smooth_footer = False
 
-        # WebKit Workarounds - do not run command until it repeats again.
-        self.cmd_buffer = []
-        self.cmd_set = False
-
     def _push_config(self):
         ### Global - On all pages ###
 
@@ -1121,35 +1117,13 @@ class AppView(WebKit2.WebView):
 
     def _title_changed_cb(self, view, frame):
         title = self.get_title()
-
-        # Workaround for strange WebKit2 behaviour (>=2.14)
-        # https://bugs.webkit.org/show_bug.cgi?id=165073
-        # ==================================
-        # Ignore NULL
-        if len(title) == 0 or title == 'null':
-            return
-        else:
-            self.cmd_buffer.append(title)
-
-        # Once the page is loaded, first command works fine.
-        # Subsequential clicks on anything else causes 2 callbacks.
-        if self.cmd_set:
-            if not len(self.cmd_buffer) >= 2:
-                return
-        self.cmd_buffer = []
-        self.cmd_set = True
-
-        # ==================================
-
-        dbg.stdout('Welcome', 'Command: ' + title, 2, 4)
-        self._do_command(title)
+        if title != 'null' and title != '' and title != None:
+            dbg.stdout('Welcome', 'Command: ' + title, 2, 4)
+            self._do_command(title)
 
     def _load_changed_cb(self, view, frame):
         uri = str(self.get_uri())
         app.current_page = uri.rsplit('/', 1)[1]
-
-        # WebKit Workaround - so we know the title has been changed already.
-        self.cmd_set = False
 
         ### Tweaks to execute before fully loading the page. Prevents flicker in some cases. ###
         # Adapt the header/footer if a different theme is in use.
