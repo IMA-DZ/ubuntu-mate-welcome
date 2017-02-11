@@ -1,3 +1,10 @@
+ubuntu-mate-welcome (16.10.0~xenial1.13) xenial; urgency=medium
+
+  * Drop Ocenaudio from Boutique. (LP #1613410)
+    Correct OBS Studio link. (LP: #1634313)
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Sat, 11 Feb 2017 11:01:05 +0000
+
 ubuntu-mate-welcome (16.10.0~xenial1.12) xenial; urgency=medium
 
   * Update installation packages for VirtualBox and LibreOffice.
