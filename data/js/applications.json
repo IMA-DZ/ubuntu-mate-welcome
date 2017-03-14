@@ -335,7 +335,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "trusty,xenial",
+            "releases": "trusty,xenial,yakkety",
             "pre-install": {
                 "all": {
                     "method": "ppa",
@@ -435,7 +435,7 @@
             "url-android": "https://play.google.com/store/apps/details?id=org.subsurfacedivelog.mobile",
             "url-ios": "https://itunes.apple.com/gb/app/subsurface/id907870605?mt=8",
             "arch": "i386,amd64",
-            "releases": "trusty,xenial",
+            "releases": "trusty,xenial,yakkety",
             "pre-install": {
                 "all": {
                     "method": "ppa",
@@ -985,14 +985,14 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "trusty,xenial",
+            "releases": "trusty,xenial,yakkety",
             "pre-install": {
                 "all": {
                     "method": "manual",
                     "source-file": "lutris",
-                    "apt-key-url": "http://download.opensuse.org/repositories/home:/strycore/xUbuntu_OSVERSION/Release.key",
+                    "apt-key-url": "http://download.opensuse.org/repositories/home:/strycore/xUbuntu_16.04/Release.key",
                     "apt-sources": [
-                        "deb http://download.opensuse.org/repositories/home:/strycore/xUbuntu_OSVERSION/ /"
+                        "deb http://download.opensuse.org/repositories/home:/strycore/xUbuntu_16.04/ /"
                     ]
                 }
             },
@@ -1243,7 +1243,7 @@
             "url-android": "https://play.google.com/store/apps/details?id=com.retroarch",
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "trusty,xenial",
+            "releases": "trusty,xenial,yakkety",
             "pre-install": {
                 "all": {
                     "method": "ppa",
@@ -2433,7 +2433,7 @@
                     ]
                 }
             },
-            "working": true
+            "working": false
         },
         "owncloud-client": {
             "name": "ownCloud Client",
@@ -2453,7 +2453,7 @@
             "url-android": "https://play.google.com/store/apps/details?id=com.owncloud.android",
             "url-ios": "https://itunes.apple.com/gb/app/owncloud/id543672169",
             "arch": "i386,amd64",
-            "releases": "trusty,xenial",
+            "releases": "trusty,xenial,yakkety",
             "pre-install": {
                 "all": {
                     "method": "manual",
@@ -3699,7 +3699,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "trusty,xenial",
+            "releases": "trusty,xenial,yakkety",
             "pre-install": {
                 "all": {
                     "method": "ppa",
@@ -4127,7 +4127,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "xenial",
+            "releases": "xenial,yakkety",
             "pre-install": {
                 "all": {
                     "method": "manual",
@@ -4201,7 +4201,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64,armhf,arm64,powerpc,ppc64el",
-            "releases": "trusty,xenial",
+            "releases": "trusty,xenial,yakkety",
             "pre-install": {
                 "all": {
                     "method": "ppa",
@@ -4386,7 +4386,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "trusty,xenial",
+            "releases": "trusty,xenial,yakkety",
             "pre-install": {
                 "all": {
                     "method": "ppa",
@@ -4483,7 +4483,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64,armhf",
-            "releases": "trusty,xenial",
+            "releases": "trusty,xenial,yakkety",
             "pre-install": {
                 "all": {
                     "method": "ppa",
@@ -4756,7 +4756,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64,armhf",
-            "releases": "xenial",
+            "releases": "xenial,yakkety",
             "pre-install": {
                 "all": {
                   "method": "ppa",
@@ -4820,7 +4820,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "trusty,xenial",
+            "releases": "trusty,xenial,yakkety",
             "pre-install": {
                 "all": {
                     "method": "manual",
@@ -4981,7 +4981,7 @@
             "url-android": "https://play.google.com/store/apps/details?id=com.mb.android",
             "url-ios": "https://itunes.apple.com/gb/app/emby/id992180193",
             "arch": "i386,amd64",
-            "releases": "trusty,xenial",
+            "releases": "trusty,xenial,yakkety",
             "pre-install": {
                 "all": {
                     "method": "manual",

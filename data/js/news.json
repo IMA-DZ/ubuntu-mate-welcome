@@ -1,4 +1,23 @@
 {
+    "16.10.12": {
+        "add": [
+            "anoise",
+            "aptik",
+            "emby",
+            "gns3",
+            "lutris",
+            "nuvolaplayer",
+            "recentnotifications",
+            "retroarch",
+            "openshot-qt",
+            "owncloud-client",
+            "subsurface",
+            "virtualbox"
+        ],
+        "del": {
+            "opera": "broken"
+        }
+    },
     "16.10.11": {
         "fix": {
             "hipchat": "general"
@@ -16,7 +35,7 @@
             "gelemental",
             "gns3",
             "rhythmbox",
-            "skypeforlinux",            
+            "skypeforlinux",
             "thunderbird"
         ],
         "fix": {

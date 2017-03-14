@@ -1,3 +1,10 @@
+ubuntu-mate-welcome (16.10.12~yakkety1.0) yakkety; urgency=medium
+
+  * Add missing application for Yakkety to the Software Boutique.
+  * Remove Opera. (LP: #1663523)
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Tue, 14 Mar 2017 22:33:22 +0000
+
 ubuntu-mate-welcome (16.10.11) yakkety; urgency=medium
 
   [ Luke Horwell ]
