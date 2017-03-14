@@ -1,4 +1,12 @@
 {
+    "16.10.xenial1.14": {
+        "add": [
+            "emby"
+        ],
+        "del": {
+            "opera": "broken"
+        }
+    },
     "16.10.xenial1.12": {
         "fix": {
             "libreoffice": "general",
