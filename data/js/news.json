@@ -1,4 +1,9 @@
 {
+    "16.10.xenial1.16": {
+        "fix": {
+            "wine-devel": "new-source"
+        }
+    },
     "16.10.xenial1.14": {
         "add": [
             "emby"
